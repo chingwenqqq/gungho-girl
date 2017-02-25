@@ -24,7 +24,7 @@ section.concept {
 section.works {
     width: 80%;
     max-width: 900px;
-    min-width: 350px;
+    min-width: 300px;
     margin: 0 auto;
     background-color: pink;
     position: relative;
