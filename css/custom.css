@@ -24,6 +24,14 @@ section.concept {
     background-position: 50% 10%;
     background-size: 100% auto;
 }
+.concept-logo {
+    position: absolute;
+    width: 70%;
+    height: 15%;
+    background-color: pink;
+    top: 30%;
+    right: 15%;
+}
 section.works {
     width: 80%;
     max-width: 400px;
@@ -76,6 +84,5 @@ section.works {
 .see-more {
     width: 100px;
     height: 50px;
-    background-color: black;
-    bottom: 10px;
+    bottom: 20px;
 }
