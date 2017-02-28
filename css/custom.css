@@ -16,7 +16,7 @@ header {
     background-color: pink;
     position: relative;
 }
-header .top-logo, .top-bar {
+header .top-logo, .menus {
     display: inline-block;
     height: 100%;
     vertical-align: top;
@@ -29,11 +29,33 @@ header .top-logo {
     width: 80%;
     color: white;
 }
-header .top-bar {
+header .menus {
     width: 18%;
-    background-color: yellow;
     right: 0%;
     top: 0%;
+    padding-top: 3px;
+}
+.make-hambur {
+    margin: 0 auto;
+    margin-top: 6px;
+    width: 70%;
+    height: 6px;
+    background-color: white;
+    border-radius: 5px;
+}
+.make-hambur:nth-child(1) {
+    animation-name: hambur;
+    animation-duration: 1s;
+}
+@keyframes hambur {
+    from {
+        transform: rotate(0deg);
+        background-color: white;
+    }
+    to {
+        transform: rotate(30deg);
+        background-color: yellow;
+    }
 }
 h1 {
     text-align: center;
@@ -112,15 +134,19 @@ section.works {
 .see-more {
     padding-top: 11px;
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
     position: absolute;
-    width: 30%;
-    height: 13%;
+    width: 36%;
+    height: 14%;
     bottom: 7%;
-    right: 7%;
+    right: 5%;
     background-color: white;
     border-radius: 30px;
     border: 1px solid gold;
+}
+.see-more:active {
+    background-color: gold;
+    color: white;
 }
 .series-content {
     width: 290px;
