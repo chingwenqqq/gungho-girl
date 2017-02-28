@@ -37,17 +37,16 @@ header .menus {
 }
 .make-hambur {
     margin: 0 auto;
-    margin-top: 6px;
-    width: 70%;
-    height: 6px;
+    margin-top: 8px;
+    width: 66%;
+    height: 4px;
     background-color: white;
     border-radius: 5px;
 }
-.make-hambur:nth-child(1) {
-    animation-name: hambur;
-    animation-duration: 1s;
+.make-hambur:nth-child(2) {
+    width: 80%;
 }
-@keyframes hambur {
+/*@keyframes hambur {
     from {
         transform: rotate(0deg);
         background-color: white;
@@ -56,7 +55,7 @@ header .menus {
         transform: rotate(30deg);
         background-color: yellow;
     }
-}
+}*/
 h1 {
     text-align: center;
     font-size: 25px;
@@ -75,7 +74,7 @@ section.concept {
     background-image: url('../image/concept-image1.jpg');
 }
 .series-concept {
-    height: 30vh;
+    height: 40vh;
     background-color: pink;
 }
 .concept-logo {
