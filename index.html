@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="/css/custom.css">
 </head>
 <body ng-app="gungho-girl">
-    <header>
+    <header ng-controller="HeaderController">
         <div class="top-logo" ui-sref="state1">粗活少女</div>
-        <div class="menus">
+        <div class="menus" ng-click="toggleMenu()">
             <div class="make-hambur"></div>
             <div class="make-hambur"></div>
             <div class="make-hambur"></div>

@@ -28,6 +28,7 @@ header .top-logo {
     background-color: #f5b1ac;
     width: 80%;
     color: white;
+    font-size: 18px;
 }
 header .menus {
     width: 18%;
@@ -46,6 +47,9 @@ header .menus {
 .make-hambur:nth-child(2) {
     width: 80%;
 }
+header .menus.open .make-hambur:nth-child(1) {
+    background-color: black;
+}
 /*@keyframes hambur {
     from {
         transform: rotate(0deg);
@@ -60,6 +64,15 @@ h1 {
     text-align: center;
     font-size: 25px;
     margin-top: 40px;
+}
+h2 {
+    font-size: 20px;
+    color: white;
+    line-height: 45px;
+}
+h3 {
+    font-size: 15px;
+    color: white;
 }
 section.concept, .series-concept {
     width: 100%;
@@ -153,6 +166,15 @@ section.works {
     margin: 0 auto;
     margin-top: 40px;
     background-color: yellow;
+    position: relative;
+}
+.series-title {
+    background-color: transparent;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 30%;
 }
 .series-content:after {
     content: '';
