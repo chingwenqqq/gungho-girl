@@ -52,7 +52,7 @@ section.works {
     position: relative;
 }
 .works-item:nth-child(2) {
-    background: linear-gradient(transparent, #f5b1ac) ;
+    background: linear-gradient(white, #f5b1ac) ;
 }
 .works-item:nth-child(3) {
     background-color: #c2cca1;
@@ -85,7 +85,7 @@ section.works {
 }
 .see-more {
     padding-top: 9px;
-    padding-left: 8px;
+    text-align: center;
     font-size: 14px;
     position: absolute;
     width: 30%;
