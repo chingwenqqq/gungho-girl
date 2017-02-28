@@ -9,7 +9,11 @@ angular.module('gungho-girl', ['ui.router'])
         .state('works-pink', {
           url: "/works-pink",
           templateUrl: "templates/works-pink.html"
-        })        
+        })
+        .state('pink1', {
+          url: "/pink1",
+          templateUrl: "templates/pink1.html"
+        })
 
     })
     .controller('HeaderController', ['$scope', function ($scope) {
@@ -19,3 +23,16 @@ angular.module('gungho-girl', ['ui.router'])
       }
     }])
 
+$(document).ready(function () {
+  var footer = $('footer')[0]
+  var windowHeight = $(window).height()
+  $(window).scroll(function (event) {
+    var footerPosition = footer.offsetTop - windowHeight
+    var position = $(document).scrollTop()
+    console.log('position =', position, 'footerPosition = ', footerPosition)
+    if (position >= footerPosition) {
+      console.log('yo')
+    }
+    
+  })
+})

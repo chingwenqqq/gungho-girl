@@ -63,16 +63,6 @@ header .menus.open .make-hamburg:nth-child(2) {
 header .menus.open .make-hamburg:nth-child(3) {
     transform: rotate(-45deg) translate3d(9px,-8px,0);
 }
-/*@keyframes hamburg {
-    from {
-        transform: rotate(0deg);
-        background-color: white;
-    }
-    to {
-        transform: rotate(30deg);
-        background-color: yellow;
-    }
-}*/
 h1 {
     text-align: center;
     font-size: 25px;
@@ -102,6 +92,16 @@ section.concept {
 .series-concept {
     height: 40vh;
     background-color: pink;
+    background-image: url('../image/concept-image1.jpg');
+    position: relative;
+}
+.black-gradient {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(transparent, black);
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.7;
 }
 .concept-logo {
     position: absolute;
@@ -187,7 +187,19 @@ section.works {
     height: auto;
     position: absolute;
     left: 10%;
-    top: 30%;
+    top: 50%;
+    z-index: 1;
+    animation: title 1s;
+}
+@keyframes title {
+    from {
+        opacity: 0;
+        top: 60%;
+    }
+    to {
+        opacity: 1;
+        top: 50%;
+    }
 }
 .series-content:after {
     content: '';
