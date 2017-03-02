@@ -22,23 +22,28 @@ header .top-logo, .menus {
     height: 100%;
     vertical-align: top;
     margin: 0%;
+    position: relative;
 }
 header .top-logo {
-    padding-top: 5%;
-    padding-left: 5%;
+    padding-top: 17px;
+    padding-left: 20px;
     background-color: white;
     width: 80%;
     color: #f5b1ac;
     font-size: 18px;
+    position: absolute;
+    left: 0px;
 }
 header .menus {
     background-color: #f5b1ac;
-    width: 18%;
-    padding-top: 3px;
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    padding-top: 3%;
 }
 .make-hamburg {
     margin: 0 auto;
-    margin-top: 8px;
+    margin-bottom: 14%;
     width: 66%;
     height: 4px;
     background-color: white;
@@ -110,10 +115,23 @@ section.concept {
     background-color: pink;
     top: 30%;
     right: 15%;
+    text-align: center;
+    color: white;
+    animation: title2 1s;
+}
+@keyframes title2 {
+    from {
+        opacity: 0;
+        top: 50%;
+    }
+    to {
+        opacity: 1;
+        top: 30%;
+    }
 }
 section.works {
     width: 85%;
-    max-width: 400px;
+    max-width: 550px;
     margin: 0 auto;
     background-color: white;
     position: relative;
@@ -147,7 +165,7 @@ section.works {
 .works-title {
     text-align: center;
     font-size: 20px;
-    color: gold;
+    color: black;
 }
 .works-image {
     height: 75%;
@@ -166,7 +184,7 @@ section.works {
     bottom: 7%;
     right: 5%;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 40px;
     border: 1px solid gold;
 }
 .see-more:active {
@@ -174,7 +192,7 @@ section.works {
     color: white;
 }
 .series-content {
-    width: 290px;
+    width: 310px;
     height: auto;
     margin: 0 auto;
     margin-top: 40px;
@@ -208,16 +226,28 @@ section.works {
 }
 .item {
     float: left;
-    border: 5px solid white;
-    width: 145px;
-    height: 145px;
+    border: 3px solid white;
+    width: 155px;
+    height: 155px;
     background-color: pink;
 }
 .item-w2 {
-    width: 290px;
+    width: 310px;
 }
 .item-h2 {
-    height: 290px;
+    height: 310px;
+}
+.tool-content {
+    width: 90%;
+    height: auto;
+    background-color: yellow;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.comic-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 footer {
     margin-top: 100px;
@@ -225,4 +255,53 @@ footer {
     text-align: center;
     height: 100px;
     background-color: pink;
+}
+@media only screen and (min-width: 700px){
+    header {
+        height: 65px;
+    }
+    header .menus {
+        width: 95px;
+        padding-top: 1.5%;
+    }
+    header .top-logo {
+        font-size: 30px;
+    }
+    header .menus.open .make-hamburg:nth-child(1) {
+        transform: rotate(45deg) translate3d(9px,15px,0);
+    }
+    header .menus.open .make-hamburg:nth-child(3) {
+        transform: rotate(-45deg) translate3d(9px,-15px,0);
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 70px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .works-item{
+        height: 500px;
+    }   
+    .see-more {
+        font-size: 30px;
+        padding-top: 18px;
+    }
+    .works-title {
+        font-size: 40px;
+    }
+    .series-content {
+        width: 660px;
+    }
+    .item {
+        width: 330px;
+        height: 330px;
+        border-width: 5px;
+    }
+    .item-w2 {
+        width: 660px;
+    }
+    .item-h2 {
+        height: 660px;
+    }
 }
