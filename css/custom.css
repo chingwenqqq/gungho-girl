@@ -49,7 +49,7 @@ header .menus {
     margin-bottom: 10%;
     width: 66%;
     height: 7px;
-    background-color: #f5b1ac;
+    background-color: black;
     border-radius: 7px;
     border: 0.5px solid white;
     transition: all .25s ease-out;
@@ -95,6 +95,7 @@ section.concept, .series-concept {
 }
 section.concept {
     height: 60vh;
+    background-image: url('../image/index.png');
 }
 .series-concept {
     height: 40vh;
@@ -108,7 +109,7 @@ section.concept {
         opacity: 0;
     }
     to {
-        opacity: 0.7;
+        opacity: 1;
     }
 }
 .black-gradient {
@@ -124,22 +125,22 @@ section.concept {
     width: 80%;
     height: 15%;
     background-color: transparent;
-    top: 25%;
+    top: 20%;
     right: 10%;
     text-align: center;
-    color: white;
+    color: black;
     animation: title2 1s;
 }
 .concept-logo > img {
     width: 100%;
     margin-bottom: 5px;
 }
-.black {
+.white-gradient {
     width: 100%;
     height: 60%;
-    background: linear-gradient(transparent 5%, black);
+    background: linear-gradient(transparent 50%, white);
     position: absolute;
-    opacity: 0.7;
+    opacity: 1;
     animation: change-opacity 1s;
 }
 @keyframes title2 {
@@ -149,7 +150,7 @@ section.concept {
     }
     to {
         opacity: 1;
-        top: 25%;
+        top: 20%;
     }
 }
 section.works {
