@@ -8,7 +8,7 @@
 </head>
 <body ng-app="gungho-girl">
     <header ng-controller="HeaderController">
-        <div class="top-logo" ui-sref="state1">粗活少女</div>
+        <div class="top-logo" ui-sref="state1"></div>
         <div class="menus" ng-click="toggleMenu()">
             <div class="make-hamburg"></div>
             <div class="make-hamburg"></div>
@@ -16,7 +16,29 @@
         </div>
     </header>
     <div ui-view></div>
-    <footer>footer</footer>
+    <footer>
+        <div class="footer-menus">
+            <div class="footer-icon"></div>
+            <div class="footer-chosen">家用五金系列</div>
+        </div>
+        <div class="footer-menus">
+            <div class="footer-icon"></div>
+            <div class="footer-chosen">五金耗材系列</div>
+        </div>
+        <div class="footer-menus">
+            <div class="footer-icon"></div>
+            <div class="footer-chosen">撲滅害蟲系列</div>
+        </div>
+        <div class="footer-menus">
+            <div class="footer-icon"></div>
+            <div class="footer-chosen">購買</div>
+        </div>
+        <div class="footer-menus">
+            <div class="footer-icon"></div>
+            <div class="footer-chosen">展覽資訊</div>
+        </div>
+        © Copyright Gungho-Girl
+    </footer>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>

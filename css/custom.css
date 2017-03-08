@@ -13,9 +13,11 @@ body, html {
 header {
     width: 100%;
     height: 50px;
-    background-color: white;
+    background-color: transparent;
     position: relative;
-    border-bottom: 1px solid #f5b1ac;
+    position: fixed;
+    z-index: 10;
+    /*border-bottom: 1px solid #f5b1ac;*/
 }
 header .top-logo, .menus {
     display: inline-block;
@@ -27,7 +29,7 @@ header .top-logo, .menus {
 header .top-logo {
     padding-top: 17px;
     padding-left: 20px;
-    background-color: white;
+    background-color: transparent;
     width: 80%;
     color: #f5b1ac;
     font-size: 18px;
@@ -35,38 +37,40 @@ header .top-logo {
     left: 0px;
 }
 header .menus {
-    background-color: #f5b1ac;
+    background-color: transparent;
     width: 60px;
     position: absolute;
     right: 0px;
     padding-top: 3%;
+    border-radius: 10px;
 }
 .make-hamburg {
     margin: 0 auto;
-    margin-bottom: 14%;
+    margin-bottom: 10%;
     width: 66%;
-    height: 4px;
-    background-color: white;
-    border-radius: 5px;
+    height: 7px;
+    background-color: #f5b1ac;
+    border-radius: 7px;
+    border: 0.5px solid white;
     transition: all .25s ease-out;
 }
 .make-hamburg:nth-child(2) {
     width: 80%;
 } 
 header .menus.open {
-    background-color: white;
+    background-color: transparent;
 }
 header .menus.open .make-hamburg {
     background-color: #f5b1ac;
 }
 header .menus.open .make-hamburg:nth-child(1) {
-    transform: rotate(45deg) translate3d(9px,8px,0);
+    transform: rotate(45deg) translate3d(10px,8px,0);
 }
 header .menus.open .make-hamburg:nth-child(2) {
     opacity: 0; 
 }
 header .menus.open .make-hamburg:nth-child(3) {
-    transform: rotate(-45deg) translate3d(9px,-8px,0);
+    transform: rotate(-45deg) translate3d(10px,-8px,0);
 }
 h1 {
     text-align: center;
@@ -159,6 +163,7 @@ section.works {
     width: 100%;
     height: 320px;
     margin-top: 70px;
+    margin-bottom: 120px;
     position: relative;
 }
 .works-item:nth-child(2) {
@@ -290,10 +295,38 @@ section.works {
 }
 footer {
     margin-top: 100px;
-    padding-top: 10px;
     text-align: center;
-    height: 100px;
+    height: 400px;
     background-color: pink;
+}
+footer > .footer-menus {
+    width: 100%;
+    height: 15%;
+    padding-left: 5%;
+    padding-top: 2%;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+} 
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: pink;
+    border: 1px solid white;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-chosen {
+    padding-top: 3%;
+    padding-left: 3%;
+    display: inline-block;
+    height: 90%;
+    width: 85%;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+    font-size: 18px;
 }
 @media only screen and (min-width: 700px){
     header {
@@ -323,7 +356,7 @@ footer {
         font-size: 30px;
     }
     .works-item{
-        height: 500px;
+        height: 650px;
     }   
     .see-more {
         font-size: 30px;
