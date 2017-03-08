@@ -340,9 +340,13 @@ footer > .footer-menus {
         font-size: 30px;
     }
     header .menus.open .make-hamburg:nth-child(1) {
+        -ms-transform: rotate(45deg) translate3d(9px,15px,0); /* IE 9 */
+        -webkit-transform: rotate(45deg) translate3d(9px,15px,0); /* Chrome, Safari, Opera */
         transform: rotate(45deg) translate3d(9px,15px,0);
     }
     header .menus.open .make-hamburg:nth-child(3) {
+        -ms-transform: rotate(-45deg) translate3d(9px,-15px,0); /* IE 9 */
+        -webkit-transform: rotate(-45deg) translate3d(9px,-15px,0); /* Chrome, Safari, Opera */
         transform: rotate(-45deg) translate3d(9px,-15px,0);
     }
     h2 {
