@@ -162,7 +162,7 @@ section.works {
 }
 .works-item {
     width: 100%;
-    height: 330px;
+    height: 450px;
     margin-top: 70px;
     margin-bottom: 120px;
     position: relative;
@@ -182,13 +182,19 @@ section.works {
 }
 .works-icon {
     width: 90%;
-    height: 35%;
+    height: 30%;
     margin: 0 auto;
     background-color: transparent;
     padding-top: 9%;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+.gradient-hidding {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(transparent 80%, white) ;
+} 
 .works-item:nth-of-type(1) .works-icon {
     background-image: url('../image/system-icon-pink.png');
 } 
@@ -204,7 +210,7 @@ section.works {
     color: black;
 }
 .works-image {
-    height: 65%;
+    height: 70%;
     overflow: hidden;    
 }
 .works-image > img {
@@ -262,10 +268,14 @@ section.works {
 }
 .item {
     float: left;
-    border: 3px solid white;
+    border: 5px solid white;
     width: 155px;
     height: 155px;
     background-color: pink;
+    overflow: hidden;
+}
+.item > img {
+    width: 100%;
 }
 .item-w2 {
     width: 310px;
