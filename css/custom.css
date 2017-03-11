@@ -90,7 +90,7 @@ section.concept, .series-concept {
     width: 100%;
     background-repeat: no-repeat;
     background-position: 50% 10%;
-    background-size: 100% auto;
+    background-size: auto 100%;
     margin-bottom: 60px;
 }
 section.concept {
@@ -100,7 +100,7 @@ section.concept {
 .series-concept {
     height: 40vh;
     background-color: transparent;
-    background-image: url('../image/concept-image1.jpg');
+    background-image: url('../image/purple-index.png');
     position: relative;
     animation: change-opacity 1s;
 }
@@ -393,7 +393,7 @@ footer > .footer-menus {
     .item {
         width: 330px;
         height: 330px;
-        border-width: 5px;
+        border-width: 10px;
     }
     .item-w2 {
         width: 660px;
