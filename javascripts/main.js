@@ -41,7 +41,7 @@ angular.module('gungho-girl', ['ui.router'])
       $scope.loaded = false
       function getProducts () {
         $.ajax({
-          url: '//gungho-girl.tw/data/product.json',
+          url: 'data/product.json',
           type: 'GET',
           dataType: 'json',
           async: true
