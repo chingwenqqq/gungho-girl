@@ -20,6 +20,7 @@ angular.module('gungho-girl', ['ui.router'])
       $scope.toggleMenu = function () {
         // document.querySelector('.menus').classList.toggle('open')
         document.getElementsByClassName('menu-button')[0].classList.toggle('open')
+        document.getElementsByClassName('mobile-menu-wrapper')[0].classList.toggle('open')
       }
     }])
 
@@ -29,9 +30,7 @@ $(document).ready(function () {
   $(window).scroll(function (event) {
     var footerPosition = footer.offsetTop - windowHeight
     var position = $(document).scrollTop()
-    console.log('position =', position, 'footerPosition = ', footerPosition)
     if (position >= footerPosition) {
-      console.log('yo')
     }
     
   })
