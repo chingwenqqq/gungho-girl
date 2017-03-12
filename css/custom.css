@@ -11,7 +11,7 @@ body, html {
     padding: 0;
 }
 body {
-    font-family: 'cwTeXYen', sans-serif;
+    font-family: 'cwTeXHei', sans-serif;
 }
 header {
     width: 100%;
@@ -331,8 +331,10 @@ section.works {
 }   
 .works-title {
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     color: black;
+    font-family: 'cwTeXYen', sans-serif;
+    letter-spacing: 2px;
 }
 .works-image {
     width: 100%;
