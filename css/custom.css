@@ -10,6 +10,9 @@ body, html {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'cwTeXYen', sans-serif;
+}
 header {
     width: 100%;
     height: 50px;
@@ -148,7 +151,8 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     height: 10%;
     padding-top: 5%;
     color: #f5b1ac;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Rokkitt', serif;
 }
 .mobile-menus-chosen:nth-child(2) {
     background-color: #f5b1ac;
@@ -350,6 +354,8 @@ section.works {
     background-color: white;
     border-radius: 40px;
     border: 1px solid gold;
+    font-family: 'Abel', sans-serif;
+
 }
 .see-more:active {
     background-color: gold;
