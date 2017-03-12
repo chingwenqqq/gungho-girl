@@ -10,10 +10,6 @@ angular.module('gungho-girl', ['ui.router'])
           url: "/works-pink",
           templateUrl: "templates/works-pink.html"
         })
-        .state('pink1', {
-          url: "/pink1",
-          templateUrl: "templates/pink1.html"
-        })
         .state('works-purple', {
           url: "/works-purple",
           templateUrl: "templates/works-purple.html"
@@ -21,6 +17,10 @@ angular.module('gungho-girl', ['ui.router'])
         .state('works-blue', {
           url: "/works-blue",
           templateUrl: "templates/works-blue.html"
+        })
+        .state('purple1', {
+          url: "/purple1",
+          templateUrl: "templates/purple1.html"
         })
 
     })
