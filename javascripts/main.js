@@ -16,7 +16,7 @@ angular.module('gungho-girl', ['ui.router'])
         })
 
     })
-    .controller('HeaderController', ['$scope', function ($scope) {
+    .controller('MainController', ['$scope', function ($scope) {
       $scope.toggleMenu = function () {
         document.getElementsByClassName('menu-button')[0].classList.toggle('open')
         document.getElementsByClassName('mobile-menu-wrapper')[0].classList.toggle('open')
@@ -39,6 +39,4 @@ $(document).ready(function () {
     
   })
 })
-
-$('html, body').animate({ scrollTop: 0 }, 'fast');
 
