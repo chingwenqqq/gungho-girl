@@ -8,37 +8,38 @@
 </head>
 <body ng-app="gungho-girl">
     <header ng-controller="HeaderController">
-        <div class="top-logo" ui-sref="state1"></div>
+        <!-- <div class="top-logo" ui-sref="state1"></div> -->
         <div class="menu-button" ng-click="toggleMenu()">
             <div class="make-hamburg"></div>
             <div class="make-hamburg"></div>
             <div class="make-hamburg"></div>
         </div>
-    </header>
-    <div class="mobile-menu-wrapper">
-        <div class="mobile-menu-alignment"></div><!--
-        --><div class="mobile-menu">
-            <div class="mobile-menus-chosen" ui-sref="state1">
-                <p>Gungho Girl</p>
-            </div>
-            <div class="mobile-menus-chosen" ui-sref="works-pink">
-                <div class="chosen-icon"></div>
-                <div class="chosen-title">家用五金系列</div>
-            </div>
-            <div class="mobile-menus-chosen">
-                <div class="chosen-icon"></div>
-                <div class="chosen-title">五金耗材系列</div>
-            </div>
-            <div class="mobile-menus-chosen">
-                <div class="chosen-icon"></div>
-                <div class="chosen-title">撲滅害蟲系列</div>
-            </div>
-            <div class="mobile-menus-chosen">
-                <div class="small-button">展覽資訊</div>
-                <div class="small-button">我要預購</div>
+        <div class="mobile-menu-wrapper">
+            <div class="mobile-menu-alignment"></div><!--
+            --><div class="mobile-menu">
+                <div class="mobile-menus-chosen" ui-sref="state1" ng-click="toggleMenu()">
+                    <p>Gungho Girl</p>
+                </div>
+                <div class="mobile-menus-chosen" ui-sref="works-pink" ng-click="toggleMenu()">
+                    <div class="chosen-icon"></div>
+                    <div class="chosen-title">家用五金系列</div>
+                </div>
+                <div class="mobile-menus-chosen">
+                    <div class="chosen-icon"></div>
+                    <div class="chosen-title">五金耗材系列</div>
+                </div>
+                <div class="mobile-menus-chosen">
+                    <div class="chosen-icon"></div>
+                    <div class="chosen-title">撲滅害蟲系列</div>
+                </div>
+                <div class="mobile-menus-chosen">
+                    <div class="small-button">展覽資訊</div>
+                    <div class="small-button">我要預購</div>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+    
     <div ui-view></div>
     <footer>
         <div class="footer-menus">

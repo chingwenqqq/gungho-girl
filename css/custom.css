@@ -82,7 +82,7 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     width: 100vw;
     position: fixed;
     background-color: rgba(0, 0, 0, 0);
-    z-index: 5;
+    z-index: -1;
     white-space: nowrap;
     overflow-x: hidden;
 }
@@ -136,7 +136,7 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     transition-delay: 0.05s;
 }
 .mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen:nth-of-type(3) {
-    transition-delay: 0.01s;
+    transition-delay: 0.1s;
 }
 .mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen:nth-of-type(4) {
     transition-delay: 0.15s;
