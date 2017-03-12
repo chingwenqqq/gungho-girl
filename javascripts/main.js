@@ -35,6 +35,22 @@ angular.module('gungho-girl', ['ui.router'])
         $('html,body').scrollTop(0)
       }
     }])
+    .controller('ProductController', ['$scope', '$location', function ($scope, $location) {
+      function loadPage () {
+        let pageId = $location.search()['page_id']
+        if (pageId) {
+          pageId = parseInt(pageId)
+          if (pageId === 1) {
+
+          } else if (pageId === 123) {
+            
+          }
+        } else {
+          console.log('Wrong page id')
+        }
+      }
+      loadPage()
+    }])
 
 $(document).ready(function () {
   var footer = $('footer')[0]
