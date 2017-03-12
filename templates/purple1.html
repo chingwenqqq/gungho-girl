@@ -1,28 +1,22 @@
-<div class="product-page" ng-controller="ProductController">
+<div class="product-page" ng-controller="ProductController" ng-show="loaded">
     <div class="series-concept">
-        <img src="../image/purple/purple-index.png">
+        <img ng-src="{{product.headerImage}}">
         <div class="series-title">
-            <div class="number">01</div>
-            <h2>金色螺絲釘</h2>
-            <h4>Gold Screws</h4>
+            <div class="number" ng-bind="product.number"></div>
+            <h2 ng-bind="product.name"></h2>
+            <h4 ng-bind="product.englishName"></h4>
         </div>
         <div class="white-gradient"></div>
     </div>
     <div class="tool-content">
-        <div class="tool-title">公主的眼淚</div>
+        <div class="tool-title" ng-bind="product.toolTitle"></div>
         <div class="comic-content">
-            <img src="../image/purple/purple-comic1.png">
+            <img ng-src="{{product.comicImage}}">
         </div>
         <div class="tool-image">
-            <img src="../image/purple/purple01-whole.png">
+            <img ng-src="{{product.productImage}}">
         </div>
-        <div class="product-introduction">
-            <p>金色螺絲釘<br>
-            規格：20/盒<br>
-            材質：鐵<br>
-            編號：B01<br>
-            用途：水電及居家DIY等 <br>
-            保存期限：二十年</p>
+        <div class="product-introduction" ng-bind-html="product.trustedDescription">
         </div>
     </div>  
 </div>

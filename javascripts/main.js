@@ -35,21 +35,35 @@ angular.module('gungho-girl', ['ui.router'])
         $('html,body').scrollTop(0)
       }
     }])
-    .controller('ProductController', ['$scope', '$location', function ($scope, $location) {
+    .controller('ProductController', ['$scope', '$location', '$sce', function ($scope, $location, $sce) {
+      $scope.products = null
+      $scope.product = null
+      $scope.loaded = false
+      function getProducts () {
+        $.ajax({
+          url: '//gungho-girl.tw/data/product.json',
+          type: 'GET',
+          dataType: 'json',
+          async: true
+        }).success(function (products) {
+          $scope.products = products
+          loadPage()
+        }).fail(function (error) {
+          console.error('error', error)
+        })
+      }
       function loadPage () {
         let pageId = $location.search()['page_id']
         if (pageId) {
-          pageId = parseInt(pageId)
-          if (pageId === 1) {
-
-          } else if (pageId === 123) {
-            
-          }
+          $scope.product = $scope.products[pageId]
+          $scope.product.trustedDescription = $sce.trustAsHtml($scope.product.description)
+          $scope.loaded = true
+          $scope.$apply()
         } else {
           console.log('Wrong page id')
         }
       }
-      loadPage()
+      getProducts()
     }])
 
 $(document).ready(function () {
