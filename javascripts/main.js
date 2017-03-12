@@ -14,6 +14,14 @@ angular.module('gungho-girl', ['ui.router'])
           url: "/pink1",
           templateUrl: "templates/pink1.html"
         })
+        .state('works-purple', {
+          url: "/works-purple",
+          templateUrl: "templates/works-purple.html"
+        })
+        .state('works-blue', {
+          url: "/works-blue",
+          templateUrl: "templates/works-blue.html"
+        })
 
     })
     .controller('MainController', ['$scope', function ($scope) {
