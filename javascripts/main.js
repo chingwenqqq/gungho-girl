@@ -19,7 +19,7 @@ angular.module('gungho-girl', ['ui.router'])
     .controller('HeaderController', ['$scope', function ($scope) {
       $scope.toggleMenu = function () {
         // document.querySelector('.menus').classList.toggle('open')
-        document.getElementsByClassName('menus')[0].classList.toggle('open')
+        document.getElementsByClassName('menu-button')[0].classList.toggle('open')
       }
     }])
 
