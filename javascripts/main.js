@@ -18,9 +18,9 @@ angular.module('gungho-girl', ['ui.router'])
           url: "/works-blue",
           templateUrl: "templates/works-blue.html"
         })
-        .state('purple1', {
-          url: "/purple1",
-          templateUrl: "templates/purple1.html"
+        .state('product', {
+          url: "/product?:page_id",
+          templateUrl: "templates/product.html"
         })
 
     })
