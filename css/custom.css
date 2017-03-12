@@ -102,11 +102,53 @@ header .menu-button.open .make-hamburg:nth-child(3) {
 .mobile-menu-wrapper.open .mobile-menu-alignment{
     width: 0;
 }
+.mobile-menu-wrapper.open .mobile-menu{
+    margin-top: 0px;
+    vertical-align: top;
+}
 .mobile-menu {
     width: 100vw;
     height: 100vh;
     display: inline-block;
-    background-color: blue;
+    background-color: white;
+    vertical-align: top;
+}
+.mobile-menus-chosen {
+    margin: 0 auto;
+    width: 94%;
+    height: 16%;
+    background-color: white;
+    padding-top: 8%;
+    padding-left: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.mobile-menus-chosen:nth-child(2) {
+    background-color: #f5b1ac;
+}
+.mobile-menus-chosen:nth-child(3) {
+    background-color: #d0add1;
+}
+.mobile-menus-chosen:nth-child(4) {
+    background-color: #a2c5e1;
+}
+
+.chosen-icon, .chosen-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+.chosen-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: white;
+    margin-right: 10px;
+}
+.chosen-title {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
 }
 h1 {
     text-align: center;
