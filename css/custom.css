@@ -115,7 +115,7 @@ header .menu-button.open .make-hamburg:nth-child(3) {
 }
 .mobile-menus-chosen {
     margin: 0 auto;
-    width: 94%;
+    width: 90%;
     height: 16%;
     background-color: white;
     padding-top: 8%;
@@ -123,11 +123,11 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     border: 3px solid white;
     border-radius: 10px;
     position: relative;
-    left: 100px;
+    left: 50px;
 }
 .mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen {
-    left: 0;
-    transition-duration: 0.6s;
+    left: 0px;
+    transition-duration: 0.5s;
 }
 .mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen:nth-of-type(2) {
     transition-delay: 0.1s;
@@ -137,6 +137,9 @@ header .menu-button.open .make-hamburg:nth-child(3) {
 }
 .mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen:nth-of-type(4) {
     transition-delay: 0.3s;
+}
+.mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen:nth-of-type(5) {
+    transition-delay: 0.4s;
 }
 .mobile-menus-chosen:nth-child(1) {
     height: 10%;
@@ -153,7 +156,21 @@ header .menu-button.open .make-hamburg:nth-child(3) {
 .mobile-menus-chosen:nth-child(4) {
     background-color: #a2c5e1;
 }
-
+.mobile-menus-chosen:nth-child(5) {
+    padding-left: 0px;
+    padding-top: 0px;
+    height: 13%;
+}
+.small-button {
+    width: 49.5%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+    border-radius: 10px;
+    display: inline-block;
+    padding-top: 9%;
+    text-align: center;
+}
 .chosen-icon, .chosen-title {
     display: inline-block;
     vertical-align: middle;
