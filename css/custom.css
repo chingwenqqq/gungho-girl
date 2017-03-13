@@ -241,7 +241,7 @@ section.concept {
     overflow: hidden;
 }
 .series-concept > img {
-    height: 100%;
+    width: 100%;
 }
 @keyframes change-opacity {
     from {
