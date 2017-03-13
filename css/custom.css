@@ -155,6 +155,7 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     color: #f5b1ac;
     font-size: 25px;
     font-family: 'Rokkitt', serif;
+    margin-bottom: 8px;
 }
 .mobile-menus-chosen:nth-child(2) {
     background-color: #f5b1ac;
