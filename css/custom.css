@@ -561,8 +561,7 @@ section.works {
 footer {
     margin-top: 100px;
     text-align: center;
-    height: 400px;
-    background-color: pink;
+    height: 50px;
 }
 footer > .footer-menus {
     width: 100%;
@@ -595,7 +594,8 @@ footer > .footer-menus {
 }
 .copyright {
     margin-top: 25px;
-    color: white;
+    color: pink;
+    margin-top: 20px;
 }
 @media only screen and (min-width: 700px){
     header {
