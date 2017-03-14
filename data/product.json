@@ -1,5 +1,5 @@
 {
-    "1": {
+    "purple1": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "01",
         "name": "金色螺絲釘",
@@ -9,7 +9,7 @@
         "productImage": "../image/purple/purple01-whole.png",
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
-    "2": {
+    "purple2": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "02",
         "name": "銀色螺絲釘",

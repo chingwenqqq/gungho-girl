@@ -18,8 +18,8 @@ angular.module('gungho-girl', ['ui.router'])
           url: "/works-blue",
           templateUrl: "templates/works-blue.html"
         })
-        .state('product', {
-          url: "/product?:page_id",
+        .state('products', {
+          url: "/products?:product_id",
           templateUrl: "templates/product.html"
         })
 
@@ -53,14 +53,14 @@ angular.module('gungho-girl', ['ui.router'])
         })
       }
       function loadPage () {
-        let pageId = $location.search()['page_id']
-        if (pageId) {
-          $scope.product = $scope.products[pageId]
+        let productId = $location.search()['product_id']
+        if (productId) {
+          $scope.product = $scope.products[productId]
           $scope.product.trustedDescription = $sce.trustAsHtml($scope.product.description)
           $scope.loaded = true
           $scope.$apply()
         } else {
-          console.log('Wrong page id')
+          console.log('Wrong product id')
         }
       }
       getProducts()
