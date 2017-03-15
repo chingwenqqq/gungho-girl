@@ -230,8 +230,10 @@ section.concept, .series-concept {
     margin-bottom: 60px;
 }
 section.concept {
-    height: 60vh;
-    background-image: url('../image/index.png');
+    height: 70vh;
+    background-image: url('../image/index-border.png');
+    background-size: 95%;
+    margin-top: 10px;
 }
 .series-concept {
     height: 40vh;
@@ -261,11 +263,11 @@ section.concept {
 }
 .concept-logo {
     position: absolute;
-    width: 80%;
+    width: 70%;
     height: 15%;
     background-color: transparent;
-    top: 20%;
-    right: 10%;
+    top: 23%;
+    right: 15%;
     text-align: center;
     color: black;
     animation: title2 1s;
@@ -358,7 +360,7 @@ section.works {
     overflow: hidden;    
 }
 .works-image > img {
-    height: 100%;
+    width: 100%;
 }
 .see-more {
     padding-top: 10px;
