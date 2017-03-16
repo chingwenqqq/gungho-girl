@@ -35,7 +35,7 @@ header .top-logo {
     background-color: transparent;
     width: 80%;
     color: #f5b1ac;
-    font-size: 18px;
+    font-size: 17px;
     position: absolute;
     left: 0px;
 }
@@ -233,7 +233,7 @@ section.concept {
     height: 70vh;
     background-image: url('../image/index-border.png');
     background-size: 95%;
-    margin-top: 10px;
+    margin-top: 10px ;
 }
 .series-concept {
     height: 40vh;
