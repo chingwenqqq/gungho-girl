@@ -1,6 +1,6 @@
 {
     "purple1": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/purple/purple01-whole.png",
         "number": "01",
         "name": "金色螺絲釘",
         "englishName": "誰說少女不能做粗活！",
@@ -40,13 +40,13 @@
         "description": "<p>備用刀片<br>\n規格：10片/盒<br>\n材質：鈦金屬<br>\n編號：B04<br>\n用途：居家DIY等，切割之用途等 <br>\n保存期限：二十年</p>"
     },
     "purple5": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/purple/purple05-whole.png",
         "number": "05",
         "name": "強力膠帶",
-        "englishName": "誰說少女不能做粗活！",
-        "toolTitle": "膠帶的戒指",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "englishName": "超強黏性，給對方最有誠意的交代",
+        "toolTitle": "交代",
+        "comicImage": "../image/purple/comic-purple05.jpg",
+        "productImage": "../image/purple/purple05-whole.png",
         "description": "<p>強力膠帶<br>\n規格：36mm x20mm<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "purple6": {
@@ -80,13 +80,13 @@
         "description": "<p>金色螺絲釘<br>\n規格：燈頭直徑1.4mm 轉 2.7mm 規格<br>\n材質：塑膠、銅<br>\n編號：B08<br>\n用途：燈泡轉接座 <br>\n保存期限：五年</p>"
     },
     "purple9": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/purple/purple09-whole.png",
         "number": "09",
         "name": "電線",
-        "englishName": "誰說少女不能做粗活！",
-        "toolTitle": "成為粗活公主吧！",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "englishName": "通電直擊你的心！",
+        "toolTitle": "導電油墨染髮",
+        "comicImage": "../image/purple/comic-purple09.jpg",
+        "productImage": "../image/purple/purple09-whole.png",
         "description": "<p>電線<br>\n規格：一捆50cm<br>\n材質：銅線、塑料護套<br>\n編號：B09<br>\n用途：電器使用 <br>\n保存期限：五年</p>"
     },
     "purple10": {
@@ -100,13 +100,13 @@
         "description": "<p>尼龍紮線繩<br>\n規格：200mm,40入<br>\n材質：尼龍<br>\n編號：B10<br>\n用途：固定、包裝之使用等 <br>\n保存期限：五年</p>"
     },
     "purple11": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/purple/purple11-whole.png",
         "number": "11",
         "name": "童軍繩",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "高塔上的繩子",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "comicImage": "../image/purple/comic-purple11.jpg",
+        "productImage": "../image/purple/purple11-whole.png",
         "description": "<p>童軍繩<br>\n規格：一捆200cm<br>\n材質：棉線<br>\n編號：B11<br>\n用途：繩結、固定之使用等 <br>\n保存期限：二年</p>"
     },
     "purple12": {
@@ -180,13 +180,13 @@
         "description": "<p>砂紙<br>\n規格：4片/盒<br>\n材質：金剛砂、紙<br>\n編號：B18<br>\n用途：水電及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "blue1": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "101",
+        "headerImage": "../image/blue/blue01-whole.png",
+        "number": "01",
         "name": "蒼蠅拍",
         "englishName": "誰說少女不能做粗活！",
-        "toolTitle": "鼓掌",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "toolTitle": "蒼蠅拍",
+        "comicImage": "../image/blue/comic-blue01.jpg",
+        "productImage": "../image/blue/blue01-whole.png",
         "description": "<p>蒼蠅拍<br>\n規格：100mm x 550mm<br>\n材質：塑膠<br>\n編號：C01<br>\n用途：驅逐蒼蠅 <br>\n保存期限：二年</p>"
     },
     "blue2": {
@@ -310,13 +310,13 @@
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink1": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "201",
+        "headerImage": "../image/pink/pink01-whole.png",
+        "number": "01",
         "name": "尖嘴鉗",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "../image/pink/pink01-whole.png",
         "description": "<p>尖嘴鉗<br>\n規格：150mm<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink2": {
@@ -370,23 +370,23 @@
         "description": "<p>圓形萬能鉗<br>\n規格：220mm x 65mm<br>\n材質：碳鋼金屬<br>\n編號：A06<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink7": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "207",
+        "headerImage": "../image/pink/pink08-whole.png",
+        "number": "07",
         "name": "油漆刷",
-        "englishName": "誰說少女不能做粗活！",
+        "englishName": "將瀏海染上最顯眼的顏色吧！",
         "toolTitle": "成為粗活公主吧！",
-        "comicImage": "../image/purple/purple-comic1.png",
+        "comicImage": "../image/pink/comic-pink08.jpg",
         "productImage": "../image/purple/purple01-whole.png",
         "description": "<p>油漆刷<br>\n規格：205mm x 120mm<br>\n材質：木材、羊毛<br>\n編號：A07<br>\n用途：居家裝潢DIY <br>\n保存期限：二年</p>"
     },
     "pink8": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "208",
+        "headerImage": "../image/pink/pink08-whole.png",
+        "number": "08",
         "name": "寬油漆刷",
-        "englishName": "誰說少女不能做粗活！",
-        "toolTitle": "成為粗活公主吧！",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "englishName": "將瀏海染上最顯眼的顏色吧！",
+        "toolTitle": "瑪莉的瀏海",
+        "comicImage": "../image/pink/comic-pink08.jpg",
+        "productImage": "../image/pink/pink08-whole.png",
         "description": "<p>寬油漆刷<br>\n規格：205mm x 90mm<br>\n材質：木材、羊毛<br>\n編號：A08<br>\n用途：居家裝潢DIY <br>\n保存期限：二年</p>"
     },
     "pink9": {
@@ -400,13 +400,13 @@
         "description": "<p>水平儀<br>\n規格：29cm x 7cm<br>\n材質：鐵<br>\n編號：A09<br>\n用途：測量角度 <br>\n保存期限：二十年</p>"
     },
     "pink10": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "210",
+        "headerImage": "../image/pink/pink10-whole.png",
+        "number": "10",
         "name": "工作手套",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "../image/pink/pink10-whole.png",
         "description": "<p>工作手套<br>\n規格：一雙<br>\n材質：棉紗<br>\n編號：A10<br>\n用途：做五金時保護手免於受傷 <br>\n保存期限：二年</p>"
     },
     "pink11": {
@@ -440,13 +440,13 @@
         "description": "<p>銼刀組<br>\n規格：六入<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A13<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink14": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "214",
+        "headerImage": "../image/pink/pink14-whole.png",
+        "number": "14",
         "name": "基礎鋸弓",
         "englishName": "誰說少女不能做粗活！",
-        "toolTitle": "成為粗活公主吧！",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "toolTitle": "隔壁座位的女孩",
+        "comicImage": "../image/pink/comic-pink14.jpg",
+        "productImage": "../image/pink/pink14-whole.png",
         "description": "<p>基礎鋸弓<br>\n規格：200mm<br>\n材質：碳鋼金屬、木頭握柄<br>\n編號：A14<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink15": {

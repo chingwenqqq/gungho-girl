@@ -221,6 +221,7 @@ h3 {
 h4 {
     font-family: 'Abel', sans-serif;
     letter-spacing: 1px;
+    font-size: 10px;
 }
 section.concept, .series-concept {
     width: 100%;
@@ -402,7 +403,7 @@ section.works {
 }
 .series-title {
     background-color: transparent;
-    width: 60%;
+    width: 70%;
     height: auto;
     position: absolute;
     left: 10%;
@@ -472,7 +473,7 @@ section.works {
     height: auto;
     background-color: transparent;
     margin: 0 auto;
-    margin-top: -30px;
+    margin-top: 5px;
 }
 .tool-title {
     text-align: center;
