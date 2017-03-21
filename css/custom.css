@@ -271,10 +271,11 @@ section.concept {
     text-align: center;
     color: black;
     animation: title2 1s;
+    font-size: 10px;
 }
 .concept-logo > img {
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 /* .white-gradient {
     width: 100%;
@@ -394,6 +395,7 @@ section.works {
     height: 50px;
     border-radius: 25px;
     background-color: white;
+    margin-bottom: 5px;
 }
 .series-icon >img {
     width: 100%;
@@ -431,6 +433,7 @@ section.works {
     overflow: hidden;
     animation-name: float-item;
     animation-duration: 0.5s;
+    display: inline-block; 
 }
 .item:nth-of-type(2) {
     animation-duration: 1s;
