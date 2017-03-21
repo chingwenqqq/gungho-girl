@@ -692,8 +692,27 @@ footer > .footer-menus {
         width: 80%;
         margin: 0 auto;
         margin-top: 20px;
-        margin-bottom: 50px;
-        height: 180px;
+        margin-bottom: 70px;
+        height: 200px;
+    }
+    .imfo-content {
+        font-size: 20px;
+        line-height: 25px;
+    } 
+    .mobile-menus-chosen:nth-child(1) {
+        font-size: 30px;
+    }
+    .chosen-icon {
+        width: 70px;
+        height: 70px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .chosen-title {
+        font-size: 25px;
+    }
+    .small-button {
+        font-size: 23px;
     }
     .item {
         width: 330px;
