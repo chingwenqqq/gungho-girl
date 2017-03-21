@@ -639,15 +639,33 @@ footer > .footer-menus {
     h3 {
         font-size: 25px;
     }
+    section.concept {
+        height: 90vh;
+    }
     .concept-logo {
         font-size: 30px;
+        top: 32%;
+        width: 60%;
+        right: 20%;
+        margin-bottom: 90px;
     }
-    .works-item{
+    .works-icon {
+        width: 65%;
+        padding-top: 6.5%;
+    }
+    .works-item {
         height: 700px;
+        margin-bottom: 250px;
     }   
+    .works-image {
+        height: 75%;
+    }
     .see-more {
-        font-size: 30px;
-        padding-top: 18px;
+        font-size: 40px;
+        width: 33%;
+        padding-top: 20px;
+        border-radius: 50px;
+        bottom: 5%;
     }
     .works-title {
         font-size: 30px;
