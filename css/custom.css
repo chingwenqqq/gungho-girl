@@ -641,6 +641,7 @@ footer > .footer-menus {
     }
     section.concept {
         height: 90vh;
+        margin-bottom: 150px;
     }
     .concept-logo {
         font-size: 30px;
@@ -654,7 +655,7 @@ footer > .footer-menus {
         padding-top: 6.5%;
     }
     .works-item {
-        height: 700px;
+        height: 730px;
         margin-bottom: 250px;
     }   
     .works-image {
@@ -670,8 +671,29 @@ footer > .footer-menus {
     .works-title {
         font-size: 30px;
     }
+    .system-navigation {
+        margin-bottom: 200px;
+    }
+    .system-button {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .system-icon {
+        width: 95px;
+        height: 105px;
+    }
+    .system-icon > img {
+        width: 100%;
+    }
     .series-content {
         width: 660px;
+    }
+    .information {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height: 180px;
     }
     .item {
         width: 330px;
