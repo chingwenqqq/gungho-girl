@@ -157,7 +157,7 @@
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>內角鐵<br>\n規格：4片/盒<br>\n材質：鐵<br>\n編號：B16<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>內角鐵<br>\n規格：4入/盒<br>\n材質：鐵<br>\n編號：B16<br>\n用途：水電及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "purple17": {
         "headerImage": "../image/purple/purple-index.png",
@@ -167,7 +167,7 @@
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>外角鐵<br>\n規格：4片/盒<br>\n材質：鐵<br>\n編號：B17<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>外角鐵<br>\n規格：4入/盒<br>\n材質：鐵<br>\n編號：B17<br>\n用途：水電及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "purple18": {
         "headerImage": "../image/purple/purple-index.png",
@@ -177,97 +177,97 @@
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>砂紙<br>\n規格：4片/盒<br>\n材質：金剛砂、紙<br>\n編號：B18<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>砂紙<br>\n規格：4片/盒<br>\n材質：金剛砂、紙<br>\n編號：B18<br>\n用途：水電及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "blue1": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "101",
-        "name": "金色螺絲釘",
+        "name": "蒼蠅拍",
         "englishName": "Gold Screws",
-        "toolTitle": "公主的眼淚",
+        "toolTitle": "鼓掌",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：打磨及居家DIY等 <br>\n保存期限：二年</p>"
+        "description": "<p>蒼蠅拍<br>\n規格：100mm x 550mm<br>\n材質：塑膠<br>\n編號：C01<br>\n用途：驅逐蒼蠅 <br>\n保存期限：二年</p>"
     },
     "blue2": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "102",
-        "name": "銀色螺絲釘",
+        "name": "黏蠅板",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>黏蠅板<br>\n規格：三入/盒<br>\n材質：紙、黏膠<br>\n編號：C02<br>\n用途：捕捉蒼蠅撲滅害蟲 <br>\n保存期限：二年</p>"
     },
     "blue3": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "103",
-        "name": "銀色螺絲釘",
+        "name": "黏蚊版",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>粘蚊版<br>\n規格：三入/盒<br>\n材質：紙、黏膠<br>\n編號：C03<br>\n用途：捕捉蚊子撲滅害蟲 <br>\n保存期限：二年</p>"
     },
     "blue4": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "104",
-        "name": "銀色螺絲釘",
+        "name": "水性液體電蚊香",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>水性液體電蚊香<br>\n規格：45毫升/罐<br>\n材質：Metofluthrin(美特寧) 0.2% w/w<br>\n編號：C04<br>\n用途：防治蚊子 <br>\n保存期限：二年</p>"
     },
     "blue5": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "105",
-        "name": "銀色螺絲釘",
+        "name": "門窗庭園防蚊片",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>門窗庭園防蚊片<br>\n規格：1片/盒，2.2公克/片<br>\n材質：Metofluthrin(美特寧) 5.6% w/w<br>\n編號：C05<br>\n用途：防治蚊子<br>\n保存期限：未拆封3年，開封後每片防蚊片可持續使用30天</p>"
     },
     "blue6": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "106",
-        "name": "銀色螺絲釘",
+        "name": "電蚊拍",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>電蚊拍<br>\n規格：460x175x30(mm)<br>\n材質：塑膠<br>\n編號：C06<br>\n用途：按正負電方向裝入兩個1.5v 三號電池。手握把柄，按下開關，指示燈亮即可揮舞電蚊拍，蚊蟲一觸即死。 <br>\n保存期限：二十年</p>"
     },
     "blue7": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "107",
-        "name": "銀色螺絲釘",
+        "name": "黏蟑屋",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>黏蟑屋<br>\n規格：5片/盒<br>\n材質：紙盒、黏膠、香料<br>\n編號：C07<br>\n用途：特製香料錠，以氣味吸引蟑螂進入黏張屋內，有效黏捕。 <br>\n保存期限：未拆封兩年，開封後可持續使用三個月</p>"
     },
     "blue8": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "108",
-        "name": "銀色螺絲釘",
+        "name": "蟑螂藥屋",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>蟑螂藥屋<br>\n規格：三入裝，1.5公克/包<br>\n材質：塑膠盒、芬普尼(Fipronil)0.05% w/w<br>\n編號：C08<br>\n用途：將餌劑放入塑膠盒內，撲滅蟑螂。 <br>\n保存期限：未拆封兩年，開封後可持續使用三個月。</p>"
     },
     "blue9": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "109",
-        "name": "銀色螺絲釘",
+        "name": "螞蟻藥屋",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/purple-comic1.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>螞蟻藥屋<br>\n規格：三入裝，1.5公克/包<br>\n材質：塑膠盒、Hydramethyinon(愛美松)1.0% w/w<br>\n編號：C09<br>\n用途：將餌劑放入塑膠盒內，放置於螞蟻日常通道中或是蟻穴附近，已達到撲滅螞蟻之功用。<br>\n保存期限：未拆封兩年，開封後可持續使用三個月。</p>"
     },
     "blue10": {
         "headerImage": "../image/purple/purple-index.png",
@@ -302,56 +302,6 @@
     "blue13": {
         "headerImage": "../image/purple/purple-index.png",
         "number": "113",
-        "name": "銀色螺絲釘",
-        "englishName": "Gold Screws",
-        "toolTitle": "公主的眼淚",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
-    },
-    "blue14": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "114",
-        "name": "銀色螺絲釘",
-        "englishName": "Gold Screws",
-        "toolTitle": "公主的眼淚",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
-    },
-    "blue15": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "115",
-        "name": "銀色螺絲釘",
-        "englishName": "Gold Screws",
-        "toolTitle": "公主的眼淚",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
-    },
-    "blue16": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "116",
-        "name": "銀色螺絲釘",
-        "englishName": "Gold Screws",
-        "toolTitle": "公主的眼淚",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
-    },
-    "blue17": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "117",
-        "name": "銀色螺絲釘",
-        "englishName": "Gold Screws",
-        "toolTitle": "公主的眼淚",
-        "comicImage": "../image/purple/purple-comic1.png",
-        "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
-    },
-    "blue18": {
-        "headerImage": "../image/purple/purple-index.png",
-        "number": "118",
         "name": "銀色螺絲釘",
         "englishName": "Gold Screws",
         "toolTitle": "公主的眼淚",
