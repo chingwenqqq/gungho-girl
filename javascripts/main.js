@@ -1,4 +1,4 @@
-angular.module('gungho-girl', ['ui.router'])
+angular.module('gungho-girl', ['ui.router', 'ngRoute'])
     .config(function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/state1")
         $stateProvider
