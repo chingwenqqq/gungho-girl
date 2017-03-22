@@ -1,4 +1,4 @@
-angular.module('gungho-girl', ['ui.router', 'ngRoute'])
+angular.module('gungho-girl', ['ui.router'])
     .config(function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/state1")
         $stateProvider
@@ -53,8 +53,7 @@ angular.module('gungho-girl', ['ui.router', 'ngRoute'])
         })
       }
       function loadPage () {
-        console.log('$location.search() = ', $location.search())
-        let productId = $location.search()['product_id']
+        var productId = $location.search()['product_id']
         if (productId) {
           $scope.product = $scope.products[productId]
           $scope.product.trustedDescription = $sce.trustAsHtml($scope.product.description)
