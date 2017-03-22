@@ -454,7 +454,7 @@ section.works {
     }
 }
 .item > img {
-    height: 100%;
+    width: 100%;
 }
 .item-w2 {
     width: 310px;
@@ -650,6 +650,16 @@ footer > .footer-menus {
         right: 20%;
         margin-bottom: 90px;
     }
+    @keyframes title2 {
+    from {
+        opacity: 0;
+        top: 50%;
+    }
+    to {
+        opacity: 1;
+        top: 32%;
+    }
+}   
     .works-icon {
         width: 65%;
         padding-top: 6.5%;
@@ -688,6 +698,22 @@ footer > .footer-menus {
     .series-content {
         width: 660px;
     }
+    .series-concept {
+        margin-bottom: 100px;
+    }
+    .series-title {
+        top: 50%;
+    }
+    @keyframes title {
+    from {
+        opacity: 0;
+        top: 80%;
+    }
+    to {
+        opacity: 1;
+        top: 50%;
+    }
+}
     .information {
         width: 80%;
         margin: 0 auto;
@@ -724,5 +750,16 @@ footer > .footer-menus {
     }
     .item-h2 {
         height: 660px;
+    }
+    .tool-content {
+        width: 70%;
+    }
+    .tool-title {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .product-introduction {
+        font-size: 18px;
+        line-height: 35px;
     }
 }
