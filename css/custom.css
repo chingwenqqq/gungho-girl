@@ -752,6 +752,9 @@ footer > .footer-menus {
         font-size: 18px;
         margin-top: 10px;
     }
+    .series-icon >img {
+        width: 120%;
+    }
     .item {
         width: 330px;
         height: 330px;
