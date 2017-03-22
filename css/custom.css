@@ -734,7 +734,7 @@ footer > .footer-menus {
         line-height: 25px;
     } 
     .mobile-menus-chosen:nth-child(1) {
-        font-size: 30px;
+        font-size: 40px;
     }
     .chosen-icon {
         width: 70px;
@@ -747,6 +747,10 @@ footer > .footer-menus {
     }
     .small-button {
         font-size: 23px;
+    }
+    .preparing {
+        font-size: 18px;
+        margin-top: 10px;
     }
     .item {
         width: 330px;
