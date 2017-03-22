@@ -53,6 +53,7 @@ angular.module('gungho-girl', ['ui.router', 'ngRoute'])
         })
       }
       function loadPage () {
+        console.log('$location.search() = ', $location.search())
         let productId = $location.search()['product_id']
         if (productId) {
           $scope.product = $scope.products[productId]
