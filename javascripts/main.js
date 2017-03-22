@@ -66,16 +66,16 @@ angular.module('gungho-girl', ['ui.router', 'ngRoute'])
       }
       getProducts()
     }])
-
 $(document).ready(function () {
+  
+
   var footer = $('footer')[0]
   var windowHeight = $(window).height()
   $(window).scroll(function (event) {
     var footerPosition = footer.offsetTop - windowHeight
     var position = $(document).scrollTop()
     if (position >= footerPosition) {
-    }
-    
+    }    
   })
 })
 
