@@ -633,11 +633,14 @@ footer > .footer-menus {
         transform: rotate(-45deg) translate3d(9px,-15px,0);
     }
     h2 {
-        font-size: 40px;
-        line-height: 70px;
+        font-size: 50px;
+        line-height: 90px;
     }
     h3 {
         font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
     }
     section.concept {
         height: 90vh;
@@ -702,7 +705,8 @@ footer > .footer-menus {
         margin-bottom: 100px;
     }
     .series-title {
-        top: 50%;
+        top: 40%;
+        left: 17%;
     }
     @keyframes title {
     from {
@@ -711,9 +715,13 @@ footer > .footer-menus {
     }
     to {
         opacity: 1;
-        top: 50%;
+        top: 40%;
     }
-}
+    }
+    .number {
+        font-size: 65px;
+        letter-spacing: 8px;
+    }
     .information {
         width: 80%;
         margin: 0 auto;

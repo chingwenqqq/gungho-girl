@@ -1,6 +1,6 @@
 {
     "purple1": {
-        "headerImage": "../image/purple/purple01-whole.png",
+        "headerImage": "../image/works-index.png",
         "number": "01",
         "name": "金色螺絲釘",
         "englishName": "不哭不哭，眼淚是螺絲",
@@ -10,77 +10,77 @@
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "purple2": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "02",
         "name": "螺帽組",
         "englishName": "不哭不哭，眼淚是螺帽！",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/comic-purple01.png",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>電白螺帽組<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B02<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "purple3": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "03",
         "name": "丁槍釘子",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "釘槍釘子",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>釘槍丁子<br>\n規格：5片/盒<br>\n材質：鐵<br>\n編號：B03<br>\n用途：裝潢修繕及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "purple4": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "04",
         "name": "刀片",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>備用刀片<br>\n規格：10片/盒<br>\n材質：鈦金屬<br>\n編號：B04<br>\n用途：居家DIY等，切割之用途等 <br>\n保存期限：二十年</p>"
     },
     "purple5": {
-        "headerImage": "../image/purple/purple05-whole.png",
+        "headerImage": "../image/purple/purple-index.png",
         "number": "05",
         "name": "強力膠帶",
         "englishName": "超強黏性，給對方最有誠意的交代",
         "toolTitle": "交代",
         "comicImage": "../image/purple/comic-purple05.jpg",
         "productImage": "../image/purple/purple05-whole.png",
-        "description": "<p>強力膠帶<br>\n規格：36mm x20mm<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>強力膠帶<br>\n規格：36mm x20mm<br>\n材質：聚乙烯防水纖維<br>\n編號：B05<br>\n用途：裝潢修繕及居家DIY等，用於固定修補。 <br>\n保存期限：二年</p>"
     },
     "purple6": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "06",
         "name": "電池",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "電池",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "../image/purple/purple06-whole.png",
         "description": "<p>六號電池<br>\n規格：電量1.5v，三入<br>\n材質：鋅-二氧化錳<br>\n編號：B06<br>\n用途：家庭電器使用 <br>\n保存期限：二年</p>"
     },
     "purple7": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "07",
         "name": "神桌燈泡",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：22x52mm，兩入<br>\n材質：鎢絲支撐架 、導電銅絲、紅烤漆、銅燈座<br>\n編號：B07<br>\n用途：家庭、寺廟-神桌燈、光明燈...等適用 <br>\n保存期限：二年</p>"
+        "productImage": "",
+        "description": "<p>紅燈泡<br>\n規格：22x52mm，兩入<br>\n材質：鎢絲支撐架 、導電銅絲、紅烤漆、銅燈座<br>\n編號：B07<br>\n用途：家庭、寺廟-神桌燈、光明燈...等適用 <br>\n保存期限：二年</p>"
     },
     "purple8": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "08",
         "name": "燈座",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "燈座",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：燈頭直徑1.4mm 轉 2.7mm 規格<br>\n材質：塑膠、銅<br>\n編號：B08<br>\n用途：燈泡轉接座 <br>\n保存期限：五年</p>"
+        "productImage": "",
+        "description": "<p>燈座<br>\n規格：燈頭直徑1.4mm 轉 2.7mm 規格<br>\n材質：塑膠、銅<br>\n編號：B08<br>\n用途：燈泡轉接座 <br>\n保存期限：五年</p>"
     },
     "purple9": {
-        "headerImage": "../image/purple/purple09-whole.png",
+        "headerImage": "../image/works-index.png",
         "number": "09",
         "name": "電線",
         "englishName": "通電直擊你的心！",
@@ -90,17 +90,17 @@
         "description": "<p>電線<br>\n規格：一捆50cm<br>\n材質：銅線、塑料護套<br>\n編號：B09<br>\n用途：電器使用 <br>\n保存期限：五年</p>"
     },
     "purple10": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "10",
         "name": "尼龍紮線繩",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>尼龍紮線繩<br>\n規格：200mm,40入<br>\n材質：尼龍<br>\n編號：B10<br>\n用途：固定、包裝之使用等 <br>\n保存期限：五年</p>"
     },
     "purple11": {
-        "headerImage": "../image/purple/purple11-whole.png",
+        "headerImage": "../image/works-index.png",
         "number": "11",
         "name": "童軍繩",
         "englishName": "誰說少女不能做粗活！",
@@ -110,77 +110,77 @@
         "description": "<p>童軍繩<br>\n規格：一捆200cm<br>\n材質：棉線<br>\n編號：B11<br>\n用途：繩結、固定之使用等 <br>\n保存期限：二年</p>"
     },
     "purple12": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "12",
         "name": "鐵線圈",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>漆包線<br>\n規格：0.6mm,淨重:20g±(10%)<br>\n材質：銅線<br>\n編號：B12<br>\n用途：水電及居家DIY等<br>\n保存期限：二年</p>"
     },
     "purple13": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "13",
         "name": "掛勾",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>螺絲鋼釘掛勾<br>\n規格：三入/盒<br>\n材質：塑膠、鋼釘<br>\n編號：B13<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "purple14": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "14",
         "name": "S掛勾",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>S型掛勾<br>\n規格：三入/盒<br>\n材質：塑膠、鋼釘<br>\n編號：B14<br>\n用途：吊掛及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "purple15": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "15",
         "name": "安全扣環",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>安全扣環<br>\n規格：125mm x 80mm<br>\n材質：鋁<br>\n編號：B15<br>\n用途：吊掛及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "purple16": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "16",
         "name": "L型固定器",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>內角鐵<br>\n規格：4入/盒<br>\n材質：鐵<br>\n編號：B16<br>\n用途：水電及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "purple17": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "17",
         "name": "L型固定器",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>外角鐵<br>\n規格：4入/盒<br>\n材質：鐵<br>\n編號：B17<br>\n用途：水電及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "purple18": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "18",
         "name": "砂紙",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>砂紙<br>\n規格：4片/盒<br>\n材質：金剛砂、紙<br>\n編號：B18<br>\n用途：水電及居家DIY等 <br>\n保存期限：五年</p>"
     },
     "blue1": {
-        "headerImage": "../image/blue/blue01-whole.png",
+        "headerImage": "../image/works-index.png",
         "number": "01",
         "name": "蒼蠅拍",
         "englishName": "誰說少女不能做粗活！",
@@ -190,43 +190,43 @@
         "description": "<p>蒼蠅拍<br>\n規格：100mm x 550mm<br>\n材質：塑膠<br>\n編號：C01<br>\n用途：驅逐蒼蠅 <br>\n保存期限：二年</p>"
     },
     "blue2": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "02",
         "name": "黏蠅板",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>黏蠅板<br>\n規格：三入/盒<br>\n材質：紙、黏膠<br>\n編號：C02<br>\n用途：捕捉蒼蠅撲滅害蟲 <br>\n保存期限：二年</p>"
     },
     "blue3": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "03",
         "name": "黏蚊版",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>粘蚊版<br>\n規格：三入/盒<br>\n材質：紙、黏膠<br>\n編號：C03<br>\n用途：捕捉蚊子撲滅害蟲 <br>\n保存期限：二年</p>"
     },
     "blue4": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "04",
         "name": "水性液體電蚊香",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>水性液體電蚊香<br>\n規格：45毫升/罐<br>\n材質：Metofluthrin(美特寧) 0.2% w/w<br>\n編號：C04<br>\n用途：防治蚊子 <br>\n保存期限：二年</p>"
     },
     "blue5": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "05",
         "name": "門窗庭園防蚊片",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>門窗庭園防蚊片<br>\n規格：1片/盒，2.2公克/片<br>\n材質：Metofluthrin(美特寧) 5.6% w/w<br>\n編號：C05<br>\n用途：防治蚊子<br>\n保存期限：未拆封3年，開封後每片防蚊片可持續使用30天</p>"
     },
     "blue6": {
@@ -240,73 +240,73 @@
         "description": "<p>電蚊拍<br>\n規格：460x175x30(mm)<br>\n材質：塑膠<br>\n編號：C06<br>\n用途：按正負電方向裝入兩個1.5v 三號電池。手握把柄，按下開關，指示燈亮即可揮舞電蚊拍，蚊蟲一觸即死。 <br>\n保存期限：二十年</p>"
     },
     "blue7": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "07",
         "name": "黏蟑屋",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>黏蟑屋<br>\n規格：5片/盒<br>\n材質：紙盒、黏膠、香料<br>\n編號：C07<br>\n用途：特製香料錠，以氣味吸引蟑螂進入黏張屋內，有效黏捕。 <br>\n保存期限：未拆封兩年，開封後可持續使用三個月</p>"
     },
     "blue8": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "08",
         "name": "蟑螂藥屋",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>蟑螂藥屋<br>\n規格：三入裝，1.5公克/包<br>\n材質：塑膠盒、芬普尼(Fipronil)0.05% w/w<br>\n編號：C08<br>\n用途：將餌劑放入塑膠盒內，撲滅蟑螂。 <br>\n保存期限：未拆封兩年，開封後可持續使用三個月。</p>"
     },
     "blue9": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "09",
         "name": "螞蟻藥屋",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>螞蟻藥屋<br>\n規格：三入裝，1.5公克/包<br>\n材質：塑膠盒、Hydramethyinon(愛美松)1.0% w/w<br>\n編號：C09<br>\n用途：將餌劑放入塑膠盒內，放置於螞蟻日常通道中或是蟻穴附近，已達到撲滅螞蟻之功用。<br>\n保存期限：未拆封兩年，開封後可持續使用三個月。</p>"
     },
     "blue10": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "10",
         "name": "銀色螺絲釘",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "blue11": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "11",
         "name": "銀色螺絲釘",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "blue12": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "12",
         "name": "銀色螺絲釘",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "blue13": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "13",
         "name": "銀色螺絲釘",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink1": {
@@ -320,13 +320,13 @@
         "description": "<p>尖嘴鉗<br>\n規格：150mm<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink2": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "02",
         "name": "斜嘴鉗",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>斜嘴鉗<br>\n規格：150mm<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A02<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink3": {
@@ -343,30 +343,30 @@
         "headerImage": "../image/pink/pink04-whole.png",
         "number": "04",
         "name": "粗鑽頭",
-        "englishName": "誰說少女不能做粗活！",
-        "toolTitle": "成為粗活公主吧！",
-        "comicImage": "../image/comic.jpg",
+        "englishName": "以輕盈飄逸的捲髮，開始浪漫的鑽洞工作吧！",
+        "toolTitle": "最潮髮片",
+        "comicImage": "../image/pink/comic-pink04.jpg",
         "productImage": "../image/pink/pink04-whole.png",
         "description": "<p>粗鑽頭<br>\n規格：220mm<br>\n材質：鐵<br>\n編號：A04<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink5": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/pink/pink05-whole.png",
         "number": "05",
         "name": "細鑽頭",
-        "englishName": "誰說少女不能做粗活！",
-        "toolTitle": "成為粗活公主吧！",
-        "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "englishName": "以輕盈飄逸的捲髮，開始浪漫的鑽洞工作吧！",
+        "toolTitle": "最潮髮片",
+        "comicImage": "../image/pink/comic-pink04.jpg",
+        "productImage": "../image/pink/pink05-whole.png",
         "description": "<p>細鑽頭<br>\n規格：200mm<br>\n材質：鐵<br>\n編號：A05<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink6": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "06",
         "name": "圓形萬能鉗",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>圓形萬能鉗<br>\n規格：220mm x 65mm<br>\n材質：碳鋼金屬<br>\n編號：A06<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink7": {
@@ -376,7 +376,7 @@
         "englishName": "將瀏海染上最顯眼的顏色吧！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/pink/comic-pink08.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>油漆刷<br>\n規格：205mm x 120mm<br>\n材質：木材、羊毛<br>\n編號：A07<br>\n用途：居家裝潢DIY <br>\n保存期限：二年</p>"
     },
     "pink8": {
@@ -390,13 +390,13 @@
         "description": "<p>寬油漆刷<br>\n規格：205mm x 90mm<br>\n材質：木材、羊毛<br>\n編號：A08<br>\n用途：居家裝潢DIY <br>\n保存期限：二年</p>"
     },
     "pink9": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "09",
         "name": "水平儀",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>水平儀<br>\n規格：29cm x 7cm<br>\n材質：鐵<br>\n編號：A09<br>\n用途：測量角度 <br>\n保存期限：二十年</p>"
     },
     "pink10": {
@@ -410,13 +410,13 @@
         "description": "<p>工作手套<br>\n規格：一雙<br>\n材質：棉紗<br>\n編號：A10<br>\n用途：做五金時保護手免於受傷 <br>\n保存期限：二年</p>"
     },
     "pink11": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "11",
         "name": "六角扳手",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>六角扳手<br>\n規格：單個<br>\n材質：鐵<br>\n編號：A11<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink12": {
@@ -430,13 +430,13 @@
         "description": "<p>六角扳手組<br>\n規格：六入<br>\n材質：鐵<br>\n編號：A12<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink13": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "13",
         "name": "銼刀組",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>銼刀組<br>\n規格：六入<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A13<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink14": {
@@ -450,43 +450,43 @@
         "description": "<p>基礎鋸弓<br>\n規格：200mm<br>\n材質：碳鋼金屬、木頭握柄<br>\n編號：A14<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink15": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "15",
         "name": "螺絲起子",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>螺絲起子<br>\n規格：200mm<br>\n材質：鐵、塑膠握柄<br>\n編號：A15<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink16": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "16",
         "name": "大螺絲起子",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>大螺絲起子<br>\n規格：250mm<br>\n材質：鐵、塑膠握柄<br>\n編號：A16<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink17": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "17",
         "name": "尖尾鎚",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>尖尾鎚<br>\n規格：一吋<br>\n材質：鐵、木頭握柄<br>\n編號：A17<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     },
     "pink18": {
-        "headerImage": "../image/purple/purple-index.png",
+        "headerImage": "../image/works-index.png",
         "number": "18",
         "name": "葫蘆槌",
         "englishName": "誰說少女不能做粗活！",
         "toolTitle": "成為粗活公主吧！",
         "comicImage": "../image/comic.jpg",
-        "productImage": "../image/purple/purple01-whole.png",
+        "productImage": "",
         "description": "<p>葫蘆槌<br>\n規格：一吋<br>\n材質：鐵、木頭握柄<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
     }
 }
