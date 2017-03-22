@@ -608,7 +608,7 @@ footer > .footer-menus {
 }
 .copyright {
     margin-top: 25px;
-    color: pink;
+    color: grey;
     margin-top: 20px;
 }
 @media only screen and (min-width: 700px){
