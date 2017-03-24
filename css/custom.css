@@ -556,6 +556,10 @@ section.works {
     height: 100%;
     border-right: 1px solid rgba(0, 0, 0, 0.4);
     display: inline-block;
+    overflow: hidden;
+}
+.imfo-image > img {
+    height: 100%;
 }
 .imfo-content {
     display: inline-block;
