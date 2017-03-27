@@ -903,3 +903,7 @@ footer > .footer-menus {
         margin-left: 4%; 
         width: 92%;
     }
+    .system-icon:hover {
+        width: 100px;
+        transition: 0.1s;
+    }
