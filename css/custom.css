@@ -269,7 +269,7 @@ section.concept {
     opacity: 0.7;
 }
 .box {
-    height: 40%;
+    height: 35vh;
     width: 100%;
 }
 .concept-logo {
@@ -905,5 +905,13 @@ footer > .footer-menus {
     }
     .system-icon:hover {
         width: 100px;
+        transition: 0.1s;
+    }
+    .imfo-buttom {
+        width: 60%;
+    }
+    .imfo-content:hover > .imfo-buttom{
+        width: 80%;
+        font-size: 18px;
         transition: 0.1s;
     }
