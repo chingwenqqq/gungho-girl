@@ -850,6 +850,9 @@ footer > .footer-menus {
         font-size: 16px;
         letter-spacing: 2px;
     }
+    .gradient-hidding {
+        display: none;
+    }
     .works-item {
         position: relative;
         background-color: white;
@@ -871,16 +874,25 @@ footer > .footer-menus {
         z-index: 10;
         opacity: 0;
         position: absolute;
-        background-size: 70%;
+        background-size: 100%;
         background-position: 50% 50%;
         transition: 0.3s;
         width: 100%;
         height: 100%;
     }
+    .works-item:nth-of-type(1) .works-icon {
+        background-image: url('../image/system-computer-pink.png');
+    } 
+    .works-item:nth-of-type(2) .works-icon {
+        background-image: url('../image/system-computer-purple.png');
+    }  
+    .works-item:nth-of-type(3) .works-icon {
+        background-image: url('../image/system-computer-blue.png');
+    } 
     .works-title {
         position: absolute;
         font-size: 20px;
-        top: 42.5%;
+        top: 39%;
         left: 26%;
     }
     .title {
@@ -890,15 +902,12 @@ footer > .footer-menus {
     }
     .works-item:hover > .works-icon {
         opacity: 1;
+        background-color: transparent;
         background-color: white;
-        border: 20px solid #f5b1ac; 
     }
     .works-image {
         height: 100%;
         position: absolute;
-    }
-    .gradient-hidding {
-        display: none;
     }
     .see-more {
         display: none;
