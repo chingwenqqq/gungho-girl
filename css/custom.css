@@ -817,26 +817,28 @@ footer > .footer-menus {
     }
     .back-index {
         margin-left: 10%;
-        width: 60%;
+        margin-bottom: 30px;
+        width: 55%;
         cursor: pointer;
     }
     .back-index > img {
         width: 100%;
     }   
     .computer-menus-chosen {
-        margin-top: 30px;
+        margin-top: 25px;
         cursor: pointer;
     }
     .chosen-icon {
-        width: 40px;
-        height: 40px;
+        width: 33px;
+        height: 33px;
         margin-right: 15px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .chosen-title {
         color: black;
-        font-size: 17px;
+        font-size: 15px;
         transition: 0.2s;
+        letter-spacing: 2px;
     }
    .computer-menus-chosen:hover > .chosen-title {
         font-size: 17.5px;
@@ -850,7 +852,7 @@ footer > .footer-menus {
         font-size: 16px;
         letter-spacing: 2px;
     }
-    .gradient-hidding {
+    .gradient-hidding, .white-gradient {
         display: none;
     }
     .works-item {
@@ -896,8 +898,8 @@ footer > .footer-menus {
         left: 26%;
     }
     .title {
-        font-size: 20px;
-        margin-top: 70px;
+        font-size: 22px;
+        margin-top: 90px;
         margin-bottom: 50px;
     }
     .works-item:hover > .works-icon {
@@ -913,9 +915,10 @@ footer > .footer-menus {
         display: none;
     }
     .series-concept {
-        margin-top: 50px;
         margin-left: 4%; 
-        width: 92%;
+        width: 660px;
+        height: 350px;
+        padding-top: 70px;
     }
     .system-icon:hover {
         width: 100px;
@@ -925,20 +928,12 @@ footer > .footer-menus {
         width: 60%;
     }
     .imfo-content:hover > .imfo-buttom{
-        width: 80%;
-        font-size: 18px;
+        width: 100%;
+       /*  font-size: 18px; */
         transition: 0.1s;
     }
-    .item-hover-animation {
-        display: inline-block;
-        z-index: 10;
-        width: 100%;
-        height: 100%;
-        background-color: white;
-        position: absolute;
-        opacity: 0;
-        transition: 0.2s;
-    }
-    .item-hover-animation:hover {
+    .item:hover > img {
+        width: 103%;
         opacity: 0.7;
+        transition: 0.2s;
     }
