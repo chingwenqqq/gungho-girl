@@ -310,7 +310,7 @@ section.concept {
 } */
 .works-item {
     width: 100%;
-    height: 350px;
+    height: auto;
     margin-top: 70px;
     margin-bottom: 120px;
     position: relative;
@@ -325,11 +325,12 @@ section.concept {
     background: linear-gradient(white 30%, #a2c5e1) ;
 } */
 .works-icon {
-    width: 80%;
-    height: 30%;
+    width: 300px;
+    height: 100px;
     margin: 0 auto;
+    margin-bottom: 50px;
     background-color: transparent;
-    padding-top: 8%;
+    padding-top: 30px;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -352,7 +353,6 @@ section.concept {
     background-image: url('../image/system-icon-blue.png');
 }   
 .works-title, .title {
-    width: 50%;
     margin: 0 auto;
     text-align: center;
     font-size: 17px;
@@ -362,7 +362,7 @@ section.concept {
 }
 .works-image {
     width: 100%;
-    height: 70%;
+    height: 300px;
     overflow: hidden;    
 }
 .works-image > img {
@@ -373,8 +373,8 @@ section.concept {
     text-align: center;
     font-size: 19px;
     position: absolute;
-    width: 39%;
-    height: 13%;
+    width: 100px;
+    height: 45px;
     bottom: 7%;
     right: 5%;
     background-color: white;
@@ -716,11 +716,12 @@ footer > .footer-menus {
     }
 }   
     .works-icon {
-        width: 65%;
-        padding-top: 6.5%;
+        width: 500px;
+        height: 200px;
+        padding-top: 50px;
     }
     .works-item {
-        height: 730px;
+        height: 760px;
         margin-bottom: 250px;
     }   
     .works-image {
@@ -728,7 +729,8 @@ footer > .footer-menus {
     }
     .see-more {
         font-size: 40px;
-        width: 33%;
+        width: 250px;
+        height: 90px;
         padding-top: 20px;
         border-radius: 50px;
         bottom: 5%;
@@ -939,7 +941,7 @@ footer > .footer-menus {
         position: absolute;
         font-size: 20px;
         top: 39%;
-        left: 26%;
+        left: 40%;
     }
     .title {
         font-size: 22px;
