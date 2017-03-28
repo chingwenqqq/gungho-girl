@@ -18,6 +18,10 @@ angular.module('gungho-girl', ['ui.router'])
           url: "/works-blue",
           templateUrl: "templates/works-blue.html"
         })
+        .state('exhibition', {
+          url: "/exhibition",
+          templateUrl: "templates/exhibition.html"
+        })
         .state('products', {
           url: "/products?:product_id",
           templateUrl: "templates/product.html"
