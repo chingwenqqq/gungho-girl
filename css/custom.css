@@ -651,6 +651,11 @@ footer > .footer-menus {
 .reciprocal {
     text-align: right;
 }
+.reciprocal-number {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .map {
     height: 200px;
     background-color: pink;
