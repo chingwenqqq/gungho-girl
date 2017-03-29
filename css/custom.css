@@ -285,29 +285,6 @@ section.concept {
     width: 100%;
     margin-bottom: 7px;
 }
-/* .white-gradient {
-    width: 100%;
-    height: 60%;
-    background: linear-gradient(rgba(255, 255, 255, 0) 50%, white);
-    position: absolute;
-    opacity: 1;
-    animation: change-opacity 1s;
-} */
-/* @keyframes title2 {
-    from {
-        opacity: 0;
-        top: 50%;
-    }
-    to {
-        opacity: 1;
-        top: 20%;
-    }
-} */
-/* section.works {
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-} */
 .works-item {
     width: 100%;
     height: auto;
@@ -315,15 +292,6 @@ section.concept {
     margin-bottom: 120px;
     position: relative;
 }
-/* .works-item:nth-child(1) {
-    background: linear-gradient(white 30%, #f5b1ac) ;
-}
-.works-item:nth-child(2) {
-    background: linear-gradient(white 30%, #d0add1) ;
-}
-.works-item:nth-child(3) {
-    background: linear-gradient(white 30%, #a2c5e1) ;
-} */
 .works-icon {
     width: 300px;
     height: 100px;
@@ -590,35 +558,6 @@ footer {
     text-align: center;
     height: 50px;
 }
-footer > .footer-menus {
-    width: 100%;
-    height: 15%;
-    padding-left: 10px;
-    padding-top: 5px;
-    background-color: transparent;
-    border-bottom: 1px solid white;
-} 
-.footer-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    background-color: pink;
-    border: 1px solid white;
-    display: inline-block;
-    vertical-align: top;
-}
-.footer-chosen {
-    padding-top: 13px;
-    padding-left: 10px;
-    display: inline-block;
-    height: 90%;
-    width: 85%;
-    background-color: transparent;
-    color: white;
-    text-align: left;
-    vertical-align: top;
-    font-size: 18px;
-}
 .copyright {
     margin-top: 25px;
     color: grey;
@@ -628,15 +567,31 @@ footer > .footer-menus {
     display: none;
 }
 .exhibition, .reciprocal, .map {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 .exhibition {
     height: auto;
-    padding-top: 40px;
+    padding-top: 20px;
 }
+.exhibition-border-left, .exhibition-border-right {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+}
+.exhibition-border-left {
+    background-image: url('../image/exhibition-border-left.png');
+}
+.exhibition-border-right {
+    background-image: url('../image/exhibition-border-right.png');
+    right: 0px;
+} 
 .exhibition-title {
+    padding-top: 70px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
@@ -994,4 +949,20 @@ footer > .footer-menus {
     }
     .product-introduction {
         font-size: 14px;
+    }
+    .exhibition-wrapper {
+        position: relative;
+    }
+    .exhibition, .map {
+        margin: 3%;
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 20px;
+        background-color: yellow;
+        padding-top: 40px;
+    }
+    .reciprocal {
+        position: absolute;
+        text-align: right;
     }
