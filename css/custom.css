@@ -535,6 +535,7 @@ section.concept {
 }
 .imfo-image > img {
     height: 100%;
+    border-radius: 9px;
 }
 .imfo-content {
     cursor: pointer;
