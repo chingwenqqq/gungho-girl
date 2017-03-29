@@ -237,7 +237,7 @@ section.concept, .series-concept {
     margin-bottom: 60px;
 }
 section.concept {
-    height: 70vh;
+    height: 80vh;
     background-image: url('../image/index-border.png');
     background-size: 95%;
     margin-top: 10px ;
@@ -278,7 +278,6 @@ section.concept {
     margin: 0 auto;
     text-align: center;
     color: black;
-    animation: title2 1s;
     font-size: 10px;
 }
 .concept-logo > img {
@@ -599,7 +598,7 @@ footer {
     letter-spacing: 2px;
 }
 .exhibition > p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 26px;
     letter-spacing: 1px;
 }
@@ -613,7 +612,15 @@ footer {
 }
 .map {
     height: 200px;
-    background-color: pink;
+}
+.exhibition-idea {
+    color: grey;
+    font-size: 12px;
+    line-height: 23px;
+}
+.exhibition-imfo-title {
+    font-size: 15px;
+    line-height: 35px;
 }
 @media only screen and (min-width: 640px){
     header {
@@ -697,12 +704,12 @@ footer {
         margin-bottom: 200px;
     }
     .system-button {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 30px;
     }
     .system-icon {
-        width: 95px;
-        height: 105px;
+        width: 80px;
+        height: 95px;
     }
     .system-icon > img {
         width: 100%;
@@ -739,7 +746,7 @@ footer {
         height: 200px;
     }
     .imfo-content {
-        font-size: 17px;
+        font-size: 15px;
         line-height: 25px;
     } 
     .mobile-menus-chosen:nth-child(1) {
@@ -804,6 +811,10 @@ footer {
     }
     header .menu-button {
         display: none;
+    }
+    section.concept {
+        background-image: url('../image/index-border-computer.png');
+        height: 100vh;
     }
     .content, .site-navigation {
         width: 60%;
@@ -922,7 +933,7 @@ footer {
         padding-top: 70px;
     }
     .system-icon:hover {
-        width: 100px;
+        width: 85px;
         transition: 0.1s;
     }
     .imfo-buttom {
@@ -953,16 +964,23 @@ footer {
     .exhibition-wrapper {
         position: relative;
     }
+    .exhibition-border-left, .exhibition-border-right {
+        width: 110px;
+        height: 110px;
+    }
     .exhibition, .map {
         margin: 3%;
-        width: 45%;
+        width: 43%;
         display: inline-block;
         vertical-align: top;
         margin-bottom: 20px;
-        background-color: yellow;
         padding-top: 40px;
     }
+    .map {
+        height: 310px;
+    }
     .reciprocal {
-        position: absolute;
         text-align: right;
+        width: 92%;
+        margin-top: 20px;
     }
