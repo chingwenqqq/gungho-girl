@@ -8,6 +8,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 a {
     color: black;
+
 }
 body, html {
     margin: 0;
@@ -163,7 +164,6 @@ header .menu-button.open .make-hamburg:nth-child(3) {
 .mobile-menus-chosen:nth-child(1) {
     height: 9%;
     padding-top: 7%;
-    padding-left: 7%;
     font-size: 25px;
     font-family: 'Rokkitt', serif;
     margin-bottom: 10px;
@@ -212,6 +212,7 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     display: inline-block;
     font-size: 18px;
     letter-spacing: 5px;
+    font-family: 'cwTeXHei', sans-serif;
 }
 h1 {
     text-align: center;
