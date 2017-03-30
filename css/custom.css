@@ -313,7 +313,7 @@ section.concept {
     background: -webkit-linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255,0) 30%) ;
     background: -moz-linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 30%) ; 
     background: -ms-linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 30%) ; 
-    background: -0-linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 30%) ;   
+    background: -o-linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 30%) ;   
 } 
 .works-item:nth-of-type(1) .works-icon {
     background-image: url('../image/system-icon-pink.png');
