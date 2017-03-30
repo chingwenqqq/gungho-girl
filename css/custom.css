@@ -157,7 +157,7 @@ header .menu-button.open .make-hamburg:nth-child(3) {
 .mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen:nth-of-type(5) {
     transition-delay: 0.2s;
 }
-.mobile-menu-wrapper.open .mobile-menu .mobile-menus-chosen:nth-of-type(6) {
+.mobile-menu-wrapper.open .mobile-menu a .mobile-menus-chosen {
     transition-delay: 0.25s;
 }
 .mobile-menus-chosen:nth-child(1) {
