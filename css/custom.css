@@ -118,7 +118,6 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     display: inline-block;
 }
 .mobile-menu-wrapper.open .mobile-menu {
-    vertical-align: top;
     opacity: 1; 
 }
 .mobile-menu {

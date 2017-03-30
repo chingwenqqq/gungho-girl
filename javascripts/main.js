@@ -20,7 +20,11 @@ angular.module('gungho-girl', ['ui.router'])
         })
         .state('exhibition', {
           url: "/exhibition",
-          templateUrl: "templates/exhibition.html"
+          templateUrl: "templates/exhibition.html",
+          controller: function ($scope) {
+            var exibitionDay = new Date(2017, 4, 19)
+            $scope.startRemain = Math.floor((exibitionDay - new Date()) / (1000 * 60 * 60 * 24))
+          }
         })
         .state('products', {
           url: "/products?:product_id",
