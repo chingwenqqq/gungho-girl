@@ -22,8 +22,7 @@ angular.module('gungho-girl', ['ui.router'])
           url: "/exhibition",
           templateUrl: "templates/exhibition.html",
           controller: function ($scope) {
-            var exibitionDay = new Date(2017, 4, 19)
-            $scope.startRemain = Math.floor((exibitionDay - new Date()) / (1000 * 60 * 60 * 24))
+            $('#startRemain').html(Math.floor((new Date(2017, 4, 19) - new Date()) / (1000 * 60 * 60 * 24)))
           }
         })
         .state('products', {
