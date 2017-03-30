@@ -22,7 +22,7 @@ angular.module('gungho-girl', ['ui.router'])
           url: "/exhibition",
           templateUrl: "templates/exhibition.html",
           controller: function ($scope) {
-            $('#startRemain').html(Math.floor((new Date(2017, 4, 19) - new Date()) / (1000 * 60 * 60 * 24)))
+            $scope.startRemain = Math.floor((new Date(2017, 4, 19) - new Date()) / (1000 * 60 * 60 * 24))
           }
         })
         .state('products', {
@@ -72,16 +72,4 @@ angular.module('gungho-girl', ['ui.router'])
       }
       getProducts()
     }])
-$(document).ready(function () {
-  
-
-  var footer = $('footer')[0]
-  var windowHeight = $(window).height()
-  $(window).scroll(function (event) {
-    var footerPosition = footer.offsetTop - windowHeight
-    var position = $(document).scrollTop()
-    if (position >= footerPosition) {
-    }    
-  })
-})
 
