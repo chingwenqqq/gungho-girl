@@ -609,6 +609,61 @@ footer {
     font-size: 15px;
     line-height: 35px;
 }
+.nextprev {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-left: 2%;
+}
+.next-button, .prev-button, .back-works {
+    display: inline-block;
+    vertical-align: center;
+    width: 36%;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+}
+.back-works {
+    width: 25%;
+    height: 100%;
+    background-color: yellow;
+}
+.next-icon, .prev-icon, .next, .prev {
+    display: inline-block;
+    width: 39%;
+    height: 100%;
+    vertical-align: top;
+    transition: 0.2s;
+}
+.prev {
+    text-align: right;
+}
+.next, .prev {
+    width: 57%;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: rokkitt;
+}
+.next-icon {
+    background-image: url('../image/next-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40%;
+}
+.prev-icon {
+    background-image: url('../image/prev-icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40%;
+}
+.next-button:hover > .next-icon {
+    background-position: 35% 50%;
+}
+.prev-button:hover > .prev-icon {
+    background-position: 65% 50%;
+}
 @media only screen and (min-width: 640px){
     header {
         height: 65px;
@@ -781,6 +836,9 @@ footer {
         font-size: 18px;
         line-height: 35px;
     }
+    .nextprev {
+        width: 70%;
+    }
 }
 @media only screen and (min-width: 1024px){
     body {
@@ -838,6 +896,7 @@ footer {
         color: black;
         font-size: 15px;
         transition: 0.2s;
+        transition-timing-function: ease-out;
         letter-spacing: 2px;
     }
    .computer-menus-chosen:hover > .chosen-title {
@@ -894,18 +953,25 @@ footer {
     .works-title {
         position: absolute;
         font-size: 20px;
-        top: 39%;
+        top: 45%;
         left: 40%;
+        opacity: 0;
+        transition: 0.2s;
+        transition-timing-function: ease-out;
     }
     .title {
         font-size: 22px;
         margin-top: 90px;
         margin-bottom: 50px;
     }
-    .works-item:hover > .works-icon {
+    .works-item:hover .works-icon {
         opacity: 1;
         background-color: transparent;
         background-color: white;
+    }
+    .works-item:hover .works-icon .works-title {
+        top: 39%;
+        opacity: 1;
     }
     .works-image {
         height: 100%;
@@ -924,16 +990,18 @@ footer {
         padding-top: 70px;
     }
     .system-icon:hover {
-        width: 85px;
+        width: 82px;
         transition: 0.1s;
+        transition-timing-function: ease-out;
     }
     .imfo-buttom {
         width: 68%;
+        transition: 0.3s;
+        transition-timing-function: ease-out;
     }
     .imfo-content:hover > .imfo-buttom{
         width: 100%;
        /*  font-size: 18px; */
-        transition: 0.1s;
     }
     .item:hover > img {
         width: 103%;
