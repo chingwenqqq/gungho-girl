@@ -168,21 +168,6 @@ header .menu-button.open .make-hamburg:nth-child(3) {
     margin-bottom: 10px;
     border-bottom: white;
 }
-/* .mobile-menus-chosen:nth-child(2) {
-    background-color: #f5b1ac;
-}
-.mobile-menus-chosen:nth-child(3) {
-    background-color: #d0add1;
-}
-.mobile-menus-chosen:nth-child(4) {
-    background-color: #a2c5e1;
-} */
-/* .mobile-menus-chosen:nth-child(5) {
-    padding-left: 0px;
-    padding-top: 0px;
-    height: 13%;
-    margin-top: 5px;
-} */
 .small-button {
     width: 49%;
     height: 100%;
@@ -406,9 +391,10 @@ section.concept {
     cursor: pointer;
     position: relative;
     float: left;
-    border: 5px solid white;
-    width: 155px;
-    height: 155px;
+    border: 2px solid black;
+    margin: 3px;
+    width: 140px;
+    height: 140px;
     overflow: hidden;
     animation-name: float-item;
     animation-duration: 0.5s;
@@ -674,15 +660,15 @@ footer {
         margin-bottom: 90px;
     }
     @keyframes title2 {
-    from {
-        opacity: 0;
-        top: 50%;
-    }
-    to {
-        opacity: 1;
-        top: 32%;
-    }
-}   
+        from {
+            opacity: 0;
+            top: 50%;
+        }
+        to {
+            opacity: 1;
+            top: 32%;
+        }
+    }   
     .works-icon {
         width: 500px;
         height: 200px;
@@ -721,7 +707,8 @@ footer {
         width: 100%;
     }
     .series-content {
-        width: 660px;
+        width: 680px;
+        background-color: yellow;
     }
     .series-concept {
         margin-bottom: 100px;
@@ -731,14 +718,14 @@ footer {
         left: 17%;
     }
     @keyframes title {
-    from {
-        opacity: 0;
-        top: 80%;
-    }
-    to {
-        opacity: 1;
-        top: 40%;
-    }
+        from {
+            opacity: 0;
+            top: 80%;
+        }
+        to {
+            opacity: 1;
+            top: 40%;
+        }
     }
     .number {
         font-size: 65px;
@@ -778,15 +765,20 @@ footer {
         width: 120%;
     }
     .item {
-        width: 330px;
-        height: 330px;
-        border-width: 10px;
+        width: 200px;
+        height: 200px;
+        border-width: 2px;
+        border-color: grey;
+        margin: 12px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
     }
     .item-w2 {
-        width: 660px;
+        width: 420px;
     }
     .item-h2 {
-        height: 660px;
+        height: 420px;
     }
     .tool-content {
         width: 70%;
@@ -949,11 +941,6 @@ footer {
         width: 100%;
        /*  font-size: 18px; */
         transition: 0.1s;
-    }
-    .item {
-    }
-    .item >img {
-        width: 100%;
     }
     .item:hover > img {
         width: 103%;

@@ -10,7 +10,7 @@
     <div class="white-gradient"></div>
 </div>
 <div class="series-content">
-    <div class="item item-w2" ui-sref="products({product_id: 'pink1'})" ng-click="changePage()">
+    <div class="item" ui-sref="products({product_id: 'pink1'})" ng-click="changePage()">
         <img src="../image/pink/pink01-whole.png">
     </div>
     <div class="item item-h2" ui-sref="products({product_id: 'pink10'})" ng-click="changePage()">
@@ -38,5 +38,7 @@
         <img src="../image/pink/pink16-whole.png">
     </div>
 
-
 </div>
+<script>
+    new Masonry('.series-content', {})
+</script>
