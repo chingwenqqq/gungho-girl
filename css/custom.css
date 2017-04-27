@@ -402,44 +402,7 @@ section.concept {
     display: block;
     clear: both;
 }
-.item {
-    cursor: pointer;
-    position: relative;
-    float: left;
-    border: 5px solid white;
-    width: 155px;
-    height: 155px;
-    overflow: hidden;
-    animation-name: float-item;
-    animation-duration: 0.5s;
-    display: inline-block; 
-}
-.item:nth-of-type(2) {
-    animation-duration: 1s;
-}
-.item:nth-of-type(3) {
-    animation-duration: 1.5s;
-}
-.item:nth-of-type(4) {
-    animation-duration: 2s;
-}
-@keyframes float-item {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-.item > img {
-    width: 100%;
-}
-.item-w2 {
-    width: 310px;
-}
-.item-h2 {
-    height: 310px;
-}
+
 .number {
     font-family: 'Anton', sans-serif;
     font-size: 50px;
@@ -832,17 +795,6 @@ footer {
     .series-icon >img {
         width: 120%;
     }
-    .item {
-        width: 330px;
-        height: 330px;
-        border-width: 10px;
-    }
-    .item-w2 {
-        width: 660px;
-    }
-    .item-h2 {
-        height: 660px;
-    }
     .tool-content {
         width: 70%;
     }
@@ -857,6 +809,7 @@ footer {
     .nextprev {
         width: 70%;
     }
+
 }
 @media only screen and (min-width: 1024px){
     body {
@@ -940,6 +893,21 @@ footer {
         margin-bottom: 150px;
         cursor: pointer;
     }
+/*     .item > img {
+        width: 310px;
+    }
+    .item-w2 {
+        width: 620px;
+    }
+    .item-w2 > img {
+        width: 620px;
+    }
+    .item-h2 {
+        height: 620px;
+    }
+    .item-h2 > img {
+        height: 620px;
+    } */
     .works-item:nth-of-type(1) {
         margin-left: 23%;
     }
@@ -1018,13 +986,14 @@ footer {
         width: 100%;
        /*  font-size: 18px; */
     }
-    .item {
+    /* .item {
         position: relative;
-        border-width: 16px;
+        border-width: 2px;
+        border-color: black;
+        margin-bottom: 20px;
     }
     .item-image {
         position: absolute; 
-        top: -5%;
         transition: all 0.2s ease-in-out;
     }
     .item:hover .item-image {
@@ -1034,11 +1003,17 @@ footer {
     .item:hover .item-product-name {
         opacity: 1;
         padding-top: 130px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .item:hover .item-product-name .product-number {
+        font-size: 30px;
+        font-family: Rokkitt;
     }
     .item-h2:hover .item-product-name {
         padding-top: 200px;
     }
-    .item >img {
+    .item-image > img {
         width: 100%;
         height: 100%;
     }
@@ -1051,8 +1026,7 @@ footer {
         padding-top: 250px;
         opacity: 0;
         transition: all 0.2s ease-in-out;
-        transition-delay: 0.1s;
-    }
+    } */
     .tool-title {
         font-size: 25px;
         margin-top: 30px;
