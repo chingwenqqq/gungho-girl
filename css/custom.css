@@ -348,7 +348,6 @@ section.concept {
     width: 310px;
     height: auto;
     margin: 0 auto;
-    margin-top: 40px;
     background-color: transparent;
     position: relative;
 }
@@ -382,19 +381,15 @@ section.concept {
         top: 40%;
     }
 }
-.series-content:after {
-    content: '';
-    display: block;
-    clear: both;
-}
+
 .item {
     cursor: pointer;
     position: relative;
     float: left;
-    border: 2px solid black;
-    margin: 3px;
-    width: 140px;
-    height: 140px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 4px;
+    width: 145px;
+    height: 145px;
     overflow: hidden;
     animation-name: float-item;
     animation-duration: 0.5s;
@@ -421,10 +416,10 @@ section.concept {
     width: 100%;
 }
 .item-w2 {
-    width: 310px;
+    width: 298px;
 }
 .item-h2 {
-    height: 310px;
+    height: 298px;
 }
 .number {
     font-family: 'Anton', sans-serif;
@@ -707,8 +702,7 @@ footer {
         width: 100%;
     }
     .series-content {
-        width: 680px;
-        background-color: yellow;
+        width: 660px;
     }
     .series-concept {
         margin-bottom: 100px;
@@ -765,23 +759,19 @@ footer {
         width: 120%;
     }
     .item {
-        width: 200px;
-        height: 200px;
-        border-width: 2px;
-        border-color: grey;
+        width: 300px;
+        height: 300px;
+        border: 3px solid rgba(0, 0, 0, 0.3);
         margin: 12px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
     .item-w2 {
-        width: 420px;
+        width: 624px;
     }
     .item-h2 {
-        height: 420px;
-    }
-    .tool-content {
-        width: 70%;
+        height: 624px;
     }
     .tool-title {
         font-size: 35px;
@@ -924,6 +914,9 @@ footer {
     .see-more {
         display: none;
     }
+    .series-content {
+        margin-top: 40px;
+    }
     .series-concept {
         margin: 0 auto; 
         width: 660px;
@@ -946,6 +939,24 @@ footer {
         width: 103%;
         opacity: 0.7;
         transition: all 0.2s ease-in-out;
+    }
+    .item {
+        width: 200px;
+        height: 200px;
+        border: 3px solid rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .item-w2 {
+        width: 420px;
+    }
+    .item-h2 {
+        height: 420px;
+    }
+    .tool-content {
+        width: 70%;
     }
     .tool-title {
         font-size: 25px;
