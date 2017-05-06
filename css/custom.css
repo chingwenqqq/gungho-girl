@@ -638,7 +638,10 @@ footer {
 .back-works {
     width: 25%;
     height: 100%;
-    background-color: yellow;
+    background-image: url('../image/back.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 40%;
 }
 .next-icon, .prev-icon, .next, .prev {
     display: inline-block;
