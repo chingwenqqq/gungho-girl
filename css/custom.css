@@ -636,7 +636,7 @@ footer {
     cursor: pointer;
 }
 .back-works {
-    width: 25%;
+    width: 23%;
     height: 100%;
     background-image: url('../image/back.png');
     background-repeat: no-repeat;
@@ -645,7 +645,7 @@ footer {
 }
 .next-icon, .prev-icon, .next, .prev {
     display: inline-block;
-    width: 39%;
+    width: 36%;
     height: 100%;
     vertical-align: top;
     transition: 0.2s;
@@ -654,7 +654,7 @@ footer {
     text-align: right;
 }
 .next, .prev {
-    width: 57%;
+    width: 55%;
     padding-top: 15px;
     font-size: 20px;
     font-family: rokkitt;
