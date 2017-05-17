@@ -1010,14 +1010,18 @@ footer {
         top: 123px;
         text-align: center;
     }
+    .number {
+        line-height: 80px;
+    }
     .product-title {
-        padding-right: 8%;
+        width: 70%;
+        margin-bottom: 70px;
     }
     .product-icon {
-        width: 180px;
-        height: 180px;
-        top: -30px;
-        right: 10%;
+        width: 150px;
+        height: 150px;
+        top: -20px;
+        right: 8%;
     }
     h2 {
         font-size: 30px;
@@ -1074,8 +1078,8 @@ footer {
         width: 103%;
     }
     .tool-image {
-        width: 50%;
-        margin-top: 100px;
+        width: 60%;
+        margin-top: 60px;
     }
     .tool-content {
         width: 70%;
@@ -1086,6 +1090,9 @@ footer {
     }
     .product-introduction {
         font-size: 14px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
     }
     .exhibition-wrapper {
         position: relative;
