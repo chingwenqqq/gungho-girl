@@ -64,6 +64,8 @@ angular.module('gungho-girl', ['ui.router'])
         if (productId) {
           $scope.product = $scope.products[productId]
           $scope.product.trustedDescription = $sce.trustAsHtml($scope.product.description)
+          $scope.product.nextPage = '#/products?product_id=' + $scope.product.next
+          $scope.product.prevPage = '#/products?product_id=' + $scope.product.prev
           $scope.loaded = true
           $scope.$apply()
         } else {

@@ -1,13 +1,17 @@
 {
     "purple1": {
         "headerImage": "../image/works-index.png",
+        "iconImage": "../image/works-index.png",
         "number": "01",
         "name": "金色螺絲釘",
         "englishName": "不哭不哭，眼淚是螺絲",
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/comic-purple01.png",
         "productImage": "../image/purple/purple01-whole.png",
-        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
+        "next": "purple2",
+        "prev": "purple18",
+        "homepage": "#/works-purple"
     },
     "purple2": {
         "headerImage": "../image/works-index.png",
@@ -17,7 +21,10 @@
         "toolTitle": "公主的眼淚",
         "comicImage": "../image/purple/comic-purple01.png",
         "productImage": "",
-        "description": "<p>電白螺帽組<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B02<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>電白螺帽組<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B02<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
+        "next": "purple3",
+        "prev": "purple1",
+        "homepage": "#/works-purple"
     },
     "purple3": {
         "headerImage": "../image/works-index.png",
@@ -27,7 +34,10 @@
         "toolTitle": "釘槍釘子",
         "comicImage": "../image/comic.jpg",
         "productImage": "",
-        "description": "<p>釘槍丁子<br>\n規格：5片/盒<br>\n材質：鐵<br>\n編號：B03<br>\n用途：裝潢修繕及居家DIY等 <br>\n保存期限：二十年</p>"
+        "description": "<p>釘槍丁子<br>\n規格：5片/盒<br>\n材質：鐵<br>\n編號：B03<br>\n用途：裝潢修繕及居家DIY等 <br>\n保存期限：二十年</p>",
+        "next": "purple4",
+        "prev": "purple2",
+        "homepage": "#/works-purple"
     },
     "purple4": {
         "headerImage": "../image/works-index.png",

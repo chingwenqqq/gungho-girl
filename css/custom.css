@@ -203,12 +203,6 @@ h1 {
     font-size: 25px;
     margin-top: 40px;
 }
-h2 {
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.8);
-    line-height: 45px;
-    letter-spacing: 5px;
-}
 h3 {
     font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
@@ -224,39 +218,61 @@ section.concept, .series-concept {
     background-repeat: no-repeat;
     background-position: 50% 10%;
     background-size: auto 100%;
-    margin-bottom: 60px;
 }
 section.concept {
     height: 80vh;
     background-image: url('../image/index-border.png');
     background-size: 95%;
-    margin-top: 10px ;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 .series-concept {
-    height: 40vh;
-    background-color: transparent;
     position: relative;
-    animation: change-opacity 1s;
     overflow: hidden;
 }
-.series-concept > img {
+.series-index-image > img {
     width: 100%;
 }
-@keyframes change-opacity {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-.white-gradient {
+.series-concept {
+    height: 125px;
     width: 100%;
-    height: 70%;
-    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
+    margin: 0 auto;
+}
+.series-index-image {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 30px;
+}
+.product-concept {
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.product-title {
+    text-align: left;
+    position: relative;
+}
+.number {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: rgba(0, 0, 0, 0.7);
+}
+h2 {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+.product-icon {
     position: absolute;
-    bottom: 0px;
-    opacity: 0.7;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    top: -10px;
+    right: 50px;
 }
 .box {
     height: 25vh;
@@ -351,7 +367,7 @@ section.concept {
     background-color: transparent;
     position: relative;
 }
-.series-icon {
+/* .series-icon {
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -360,28 +376,7 @@ section.concept {
 }
 .series-icon >img {
     width: 100%;
-}
-.series-title {
-    background-color: transparent;
-    width: 70%;
-    height: auto;
-    position: absolute;
-    left: 10%;
-    top: 40%;
-    z-index: 1;
-    animation: title 1s;
-}
-@keyframes title {
-    from {
-        opacity: 0;
-        top: 70%;
-    }
-    to {
-        opacity: 1;
-        top: 40%;
-    }
-}
-
+} */
 .item {
     cursor: pointer;
     position: relative;
@@ -430,12 +425,6 @@ section.concept {
 }
 .item-h2 {
     height: 298px;
-}
-.number {
-    font-family: 'Anton', sans-serif;
-    font-size: 50px;
-    letter-spacing: 4px;
-    color: rgba(0, 0, 0, 0.7);
 }
 .tool-content {
     width: 90%;
@@ -699,8 +688,8 @@ footer {
         transform: rotate(-45deg) translate3d(9px,-15px,0);
     }
     h2 {
-        font-size: 50px;
-        line-height: 90px;
+        font-size: 28px;
+        line-height: 250px;
     }
     h3 {
         font-size: 25px;
@@ -762,22 +751,19 @@ footer {
         font-size: 20px;
         line-height: 30px;
     }
-    .system-icon {
-        width: 80px;
-        height: 95px;
-    }
-    .system-icon > img {
-        width: 100%;
-    }
     .series-content {
         width: 660px;
     }
     .series-concept {
-        margin-bottom: 100px;
+        height: 250px;
+        margin: 0 auto;
+        padding-top: 20px;
     }
-    .series-title {
-        top: 40%;
-        left: 17%;
+    .series-index-image {
+        width: 50%;
+    }
+    .series-concept .series-index-image img {
+        width: 100%;
     }
     @keyframes title {
         from {
@@ -857,13 +843,6 @@ footer {
     body {
         width: 90%;
         margin: 0 auto;
-    }
-   h2 {
-        font-size: 30px;
-        line-height: 70px;
-    }
-    h3 {
-        font-size: 15px;
     }
     h4 {
         font-size: 15px;
@@ -997,10 +976,21 @@ footer {
         margin-top: 40px;
     }
     .series-concept {
-        margin: 0 auto; 
-        width: 660px;
-        height: 400px;
-        padding-top: 70px;
+        height: 250px;
+        padding-top: 30px;
+    }
+    .series-index-image {
+        width: 60%;
+    }
+    .series-title {
+        width: 50%;
+        left: 26%;
+        top: 123px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 60px;
     }
     .system-icon:hover {
         width: 82px;

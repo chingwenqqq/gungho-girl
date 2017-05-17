@@ -1,13 +1,7 @@
 <div class="series-concept">
-    <img src="../image/pink/pink-index.png">
-    <div class="series-title">
-        <div class="series-icon">
-            <img src="../image/system-icon-pinks.png">
-        </div>
-        <h2>家用五金工系列</h2>
-        <h3>誰說少女不能做粗活？</h3>
+    <div class="series-index-image">
+        <img src="../image/pink/pink-index.png">
     </div>
-    <div class="white-gradient"></div>
 </div>
 <div class="series-content">
 
@@ -86,6 +80,11 @@
              <img src="../image/pink/item-pink03.png">
         </div>
     </div>
+    <div class="item item-h2" ui-sref="products({product_id: 'pink10'})" ng-click="changePage()">
+        <div class="item-image">
+            <img src="../image/pink/item-pink10.png">
+        </div>
+    </div>
     <div class="item" ui-sref="products({product_id: 'pink14'})" ng-click="changePage()">
         <div class="item-image">
             <img src="../image/pink/item-pink14.png">
@@ -96,7 +95,6 @@
             <img src="../image/pink/item-pink17.png">
         </div>
     </div>
-
 </div>
 <script>
     new Masonry('.series-content', {})
