@@ -21,18 +21,14 @@
         </div>
     </div> 
     <div class="nextprev">
-        <a ng-href="{{product.nextPage}}">
-            <div class="next-button">
-                <div class="next-icon"></div>
-                <div class="next">prev</div>
-            </div>
-        </a>
-        <a ng-href="{{product.homepage}}"><div class="back-works"></div></a>
-        <a ng-href="{{product.prevPage}}">
-            <div class="prev-button">
-                <div class="prev">next</div>
-                <div class="prev-icon"></div>
-            </div>
-        </a>
+        <div class="next-button" ng-click="toNextPage(product)">
+            <div class="next-icon"></div>
+            <div class="next">prev</div>
+        </div>
+        <div class="back-works" ng-click="toHomePage(product)"></div>
+        <div class="prev-button" ng-click="toPrevPage(product)">
+            <div class="prev">next</div>
+            <div class="prev-icon"></div>
+        </div>
     </div> 
 </div>

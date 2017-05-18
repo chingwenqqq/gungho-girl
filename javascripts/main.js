@@ -46,6 +46,18 @@ angular.module('gungho-girl', ['ui.router'])
       $scope.products = null
       $scope.product = null
       $scope.loaded = false
+      $scope.toNextPage = function (product) {
+        window.location = '#/products?product_id=' + product.next
+        $('html,body').scrollTop(0)
+      }
+      $scope.toPrevPage = function (product) {
+        window.location = '#/products?product_id=' + product.prev
+        $('html,body').scrollTop(0)
+      }
+      $scope.toHomePage = function (product) {
+        window.location = product.homepage
+        $('html,body').scrollTop(0) 
+      }
       function getProducts () {
         $.ajax({
           url: 'data/product.json',
@@ -64,8 +76,6 @@ angular.module('gungho-girl', ['ui.router'])
         if (productId) {
           $scope.product = $scope.products[productId]
           $scope.product.trustedDescription = $sce.trustAsHtml($scope.product.description)
-          $scope.product.nextPage = '#/products?product_id=' + $scope.product.next
-          $scope.product.prevPage = '#/products?product_id=' + $scope.product.prev
           $scope.loaded = true
           $scope.$apply()
         } else {
