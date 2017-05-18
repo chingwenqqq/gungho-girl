@@ -76,6 +76,7 @@ angular.module('gungho-girl', ['ui.router'])
         if (productId) {
           $scope.product = $scope.products[productId]
           $scope.product.trustedDescription = $sce.trustAsHtml($scope.product.description)
+          $scope.product.trustedVideoLink = $sce.trustAsResourceUrl($scope.product.videoLink)
           $scope.loaded = true
           $scope.$apply()
         } else {

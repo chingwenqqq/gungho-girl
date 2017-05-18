@@ -7,7 +7,11 @@
             <h4 ng-bind="product.englishName"></h4>
             <img class="product-icon" ng-src="{{product.iconImage}}"></img>
         </div>
-        <div class="white-gradient"></div>
+        <!-- <div class="white-gradient"></div> -->
+    </div>
+    <div class="tool-title">工具小教室</div>
+    <div class="video-content" ng-if="product.videoLink">
+        <iframe ng-src="{{product.trustedVideoLink}}"></iframe>
     </div>
     <div class="tool-content">
         <div class="tool-title" ng-bind="product.toolTitle"></div>

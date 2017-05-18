@@ -11,7 +11,8 @@
         "description": "<p>金色螺絲釘<br>\n規格：20/盒<br>\n材質：鐵<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "purple18",
         "prev": "purple2",
-        "homepage": "#/works-purple"
+        "homepage": "#/works-purple",
+        "videoLink": "https://www.youtube.com/embed/4V-4Z57Jpr8"
     },
     "purple2": {
         "headerImage": "../image/works-index.png",
@@ -165,7 +166,8 @@
         "description": "<p>漆包線<br>\n規格：0.6mm,淨重:20g±(10%)<br>\n材質：銅線<br>\n編號：B12<br>\n用途：水電及居家DIY等<br>\n保存期限：二年</p>",
         "next": "purple11",
         "prev": "purple13",
-        "homepage": "#/works-purple"
+        "homepage": "#/works-purple",
+        "videoLink": "https://www.youtube.com/embed/jnx1QVX4TNE"
     },
     "purple13": {
         "headerImage": "../image/works-index.png",
@@ -389,7 +391,8 @@
         "description": "<p>針筒殺蟲藥<br>\n規格：一劑<br>\n編號：C10<br>\n用途：鋪滅害蟲 <br>\n保存期限：二年</p>",
         "next": "blue9",
         "prev": "blue11",
-        "homepage": "#/works-blue"
+        "homepage": "#/works-blue",
+        "videoLink": "https://www.youtube.com/embed/lY8wk1ygy7I"
     },
     "blue11": {
         "headerImage": "../image/works-index.png",
@@ -445,7 +448,9 @@
         "description": "<p>尖嘴鉗<br>\n規格：150mm<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink18",
         "prev": "pink4",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink": "https://www.youtube.com/embed/oPa92_V_B1w"
+
     },
     "pink2": {
         "headerImage": "../image/works-index.png",
@@ -459,7 +464,8 @@
         "description": "<p>斜嘴鉗<br>\n規格：150mm<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A02<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink1",
         "prev": "pink4",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink": "https://www.youtube.com/embed/oPa92_V_B1w"
     },
     "pink3": {
         "headerImage": "../image/works-index.png",
@@ -473,7 +479,8 @@
         "description": "<p>克絲鉗<br>\n規格：200mm<br>\n材質：碳鋼金屬、塑膠握柄<br>\n編號：A03<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink2",
         "prev": "pink4",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink":"https://www.youtube.com/embed/oPa92_V_B1w"
     },
     "pink4": {
         "headerImage": "../image/works-index.png",
@@ -627,7 +634,8 @@
         "description": "<p>基礎鋸弓<br>\n規格：200mm<br>\n材質：碳鋼金屬、木頭握柄<br>\n編號：A14<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink13",
         "prev": "pink15",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink": "https://www.youtube.com/embed/yXC1cYIQF6g"
     },
     "pink15": {
         "headerImage": "../image/works-index.png",
@@ -641,7 +649,8 @@
         "description": "<p>螺絲起子<br>\n規格：200mm<br>\n材質：鐵、塑膠握柄<br>\n編號：A15<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink14",
         "prev": "pink17",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink": "https://www.youtube.com/embed/j0_sd0-dHmk"
     },
     "pink16": {
         "headerImage": "../image/works-index.png",
@@ -655,7 +664,8 @@
         "description": "<p>大螺絲起子<br>\n規格：250mm<br>\n材質：鐵、塑膠握柄<br>\n編號：A16<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink15",
         "prev": "pink17",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink": "https://www.youtube.com/embed/j0_sd0-dHmk"
     },
     "pink17": {
         "headerImage": "../image/works-index.png",
@@ -669,7 +679,8 @@
         "description": "<p>葫蘆鎚<br>\n規格：一吋<br>\n材質：鐵、木頭握柄<br>\n編號：A17<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink16",
         "prev": "pink18",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink": "https://www.youtube.com/embed/gTqYSf1z6Bs"
     },
     "pink18": {
         "headerImage": "../image/works-index.png",
@@ -683,6 +694,7 @@
         "description": "<p>葫蘆槌<br>\n規格：一吋<br>\n材質：鐵、木頭握柄<br>\n編號：B01<br>\n用途：水電及居家DIY等 <br>\n保存期限：二十年</p>",
         "next": "pink17",
         "prev": "pink1",
-        "homepage": "#/works-pink"
+        "homepage": "#/works-pink",
+        "videoLink": "https://www.youtube.com/embed/gTqYSf1z6Bs"
     }
 }

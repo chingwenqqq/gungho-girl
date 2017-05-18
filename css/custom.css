@@ -280,6 +280,16 @@ h4 {
     z-index: -10;
     opacity: 0.7;
 }
+iframe {
+    width: 300px;
+    height: 168.5px;
+}
+.video-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 70px;
+}
 .product-introduction {
     padding-left: 20px;
     padding-right: 20px;
@@ -801,6 +811,16 @@ footer {
         height: 200px;
         top: -20px;
         right: 10%;
+    }
+    iframe {
+        width: 600px;
+        height: 338px;
+    }
+    .video-content {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 70px;
     }
     .tool-image {
         width: 60%;
