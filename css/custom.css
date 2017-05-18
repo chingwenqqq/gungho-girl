@@ -811,6 +811,18 @@ footer {
         width: 60%;
         margin: 0 auto;
     }
+    .system-button {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .system-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .system-icon > img{
+        width: 100%;
+    } 
     .information {
         width: 80%;
         margin: 0 auto;
